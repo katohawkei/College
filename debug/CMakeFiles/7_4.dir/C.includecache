@@ -13,6 +13,8 @@ stdio.h
 -
 stdlib.h
 -
+inttypes.h
+-
 ../include/seed/seed.h
 /home/ivant/dev/cprojects/college/include/seed/seed.h
 
