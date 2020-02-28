@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/4.dir/l6/4.c.o CMakeFiles/4.dir/include/seed/seed.c.o  -o 4 

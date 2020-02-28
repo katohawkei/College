@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/6_3.dir/l6/3.c.o CMakeFiles/6_3.dir/include/seed/seed.c.o  -o 6_3 

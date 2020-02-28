@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/7.dir/l6/7.c.o  -o 7 
