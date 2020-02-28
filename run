@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+cd debug
+cmake ..
+make
+cd ..
+
+for (( i = 1; i < 9; i++ )) do
+    clear
+    echo "Program 6/$i:"
+    ./debug/6_$i
+    echo "Press enter to continue..."
+    read -n 1
+    clear
+done
+
+for ((j = 1; j < 5; j++)) do
+    clear
+    echo "Program 7/$j:"
+    ./debug/7_$j
+    echo "Press enter to continue..."
+    read -n 1
+    clear
+done
