@@ -5,7 +5,7 @@ void swap(int *p, int *q);
 int main()
 {
     int x = 12, y = 43;
-    swap(&x, &y);
+    swap(&x, &y); // pass the address of the vars
     printf("x=%d, y=%d\n", x, y);
 
     return 0;
@@ -13,7 +13,7 @@ int main()
 
 void swap(int *p, int *q)
 {
-    int t = *p;
-    *p = *q;
+    int t = *p; // temporary var
+    *p = *q;    
     *q = t;
 }
