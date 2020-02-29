@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../include/seed/seed.h"
+#include "../../../include/seed/seed.h"
 
 #define MIN -50
 #define MAX 50
