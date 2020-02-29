@@ -4,6 +4,6 @@
 CMakeFiles/7_4.dir/include/seed/seed.c.o: ../include/seed/seed.c
 CMakeFiles/7_4.dir/include/seed/seed.c.o: ../include/seed/seed.h
 
-CMakeFiles/7_4.dir/l7/4.c.o: ../include/seed/seed.h
-CMakeFiles/7_4.dir/l7/4.c.o: ../l7/4.c
+CMakeFiles/7_4.dir/src/term2/l7/4.c.o: ../include/seed/seed.h
+CMakeFiles/7_4.dir/src/term2/l7/4.c.o: ../src/term2/l7/4.c
 
