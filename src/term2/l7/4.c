@@ -1,7 +1,12 @@
+/*  Author: Ivan Tkachuk
+    Name: Generate new sequence
+    Date: 29.02.2020 16:55
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../include/seed/seed.h"
+#include "../../../include/seed/seed.h"
 
 #define MIN -100
 #define MAX 100

@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "../include/seed/seed.h"
+#include "../../../include/seed/seed.h"
 
 #define MIN 0
 #define MAX 10
