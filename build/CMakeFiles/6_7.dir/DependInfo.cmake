@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kato/dev/cprojects/college/l6/7.c" "/home/kato/dev/cprojects/college/build/CMakeFiles/6_7.dir/l6/7.c.o"
+  "/home/kato/dev/cprojects/college/src/term2/l6/7.c" "/home/kato/dev/cprojects/college/build/CMakeFiles/6_7.dir/src/term2/l6/7.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

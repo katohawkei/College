@@ -57,18 +57,18 @@ include CMakeFiles/7_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/7_2.dir/flags.make
 
-CMakeFiles/7_2.dir/l7/2.c.o: CMakeFiles/7_2.dir/flags.make
-CMakeFiles/7_2.dir/l7/2.c.o: ../l7/2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kato/dev/cprojects/college/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/7_2.dir/l7/2.c.o"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/7_2.dir/l7/2.c.o   -c /home/kato/dev/cprojects/college/l7/2.c
+CMakeFiles/7_2.dir/src/term2/l7/2.c.o: CMakeFiles/7_2.dir/flags.make
+CMakeFiles/7_2.dir/src/term2/l7/2.c.o: ../src/term2/l7/2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kato/dev/cprojects/college/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/7_2.dir/src/term2/l7/2.c.o"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/7_2.dir/src/term2/l7/2.c.o   -c /home/kato/dev/cprojects/college/src/term2/l7/2.c
 
-CMakeFiles/7_2.dir/l7/2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/7_2.dir/l7/2.c.i"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kato/dev/cprojects/college/l7/2.c > CMakeFiles/7_2.dir/l7/2.c.i
+CMakeFiles/7_2.dir/src/term2/l7/2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/7_2.dir/src/term2/l7/2.c.i"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kato/dev/cprojects/college/src/term2/l7/2.c > CMakeFiles/7_2.dir/src/term2/l7/2.c.i
 
-CMakeFiles/7_2.dir/l7/2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/7_2.dir/l7/2.c.s"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kato/dev/cprojects/college/l7/2.c -o CMakeFiles/7_2.dir/l7/2.c.s
+CMakeFiles/7_2.dir/src/term2/l7/2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/7_2.dir/src/term2/l7/2.c.s"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kato/dev/cprojects/college/src/term2/l7/2.c -o CMakeFiles/7_2.dir/src/term2/l7/2.c.s
 
 CMakeFiles/7_2.dir/include/seed/seed.c.o: CMakeFiles/7_2.dir/flags.make
 CMakeFiles/7_2.dir/include/seed/seed.c.o: ../include/seed/seed.c
@@ -85,13 +85,13 @@ CMakeFiles/7_2.dir/include/seed/seed.c.s: cmake_force
 
 # Object files for target 7_2
 7_2_OBJECTS = \
-"CMakeFiles/7_2.dir/l7/2.c.o" \
+"CMakeFiles/7_2.dir/src/term2/l7/2.c.o" \
 "CMakeFiles/7_2.dir/include/seed/seed.c.o"
 
 # External object files for target 7_2
 7_2_EXTERNAL_OBJECTS =
 
-7_2: CMakeFiles/7_2.dir/l7/2.c.o
+7_2: CMakeFiles/7_2.dir/src/term2/l7/2.c.o
 7_2: CMakeFiles/7_2.dir/include/seed/seed.c.o
 7_2: CMakeFiles/7_2.dir/build.make
 7_2: CMakeFiles/7_2.dir/link.txt

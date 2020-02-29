@@ -57,27 +57,27 @@ include CMakeFiles/6_8.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/6_8.dir/flags.make
 
-CMakeFiles/6_8.dir/l6/8.c.o: CMakeFiles/6_8.dir/flags.make
-CMakeFiles/6_8.dir/l6/8.c.o: ../l6/8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kato/dev/cprojects/college/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/6_8.dir/l6/8.c.o"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/6_8.dir/l6/8.c.o   -c /home/kato/dev/cprojects/college/l6/8.c
+CMakeFiles/6_8.dir/src/term2/l6/8.c.o: CMakeFiles/6_8.dir/flags.make
+CMakeFiles/6_8.dir/src/term2/l6/8.c.o: ../src/term2/l6/8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kato/dev/cprojects/college/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/6_8.dir/src/term2/l6/8.c.o"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/6_8.dir/src/term2/l6/8.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/8.c
 
-CMakeFiles/6_8.dir/l6/8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/6_8.dir/l6/8.c.i"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kato/dev/cprojects/college/l6/8.c > CMakeFiles/6_8.dir/l6/8.c.i
+CMakeFiles/6_8.dir/src/term2/l6/8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/6_8.dir/src/term2/l6/8.c.i"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kato/dev/cprojects/college/src/term2/l6/8.c > CMakeFiles/6_8.dir/src/term2/l6/8.c.i
 
-CMakeFiles/6_8.dir/l6/8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/6_8.dir/l6/8.c.s"
-	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kato/dev/cprojects/college/l6/8.c -o CMakeFiles/6_8.dir/l6/8.c.s
+CMakeFiles/6_8.dir/src/term2/l6/8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/6_8.dir/src/term2/l6/8.c.s"
+	/bin/gcc-9 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kato/dev/cprojects/college/src/term2/l6/8.c -o CMakeFiles/6_8.dir/src/term2/l6/8.c.s
 
 # Object files for target 6_8
 6_8_OBJECTS = \
-"CMakeFiles/6_8.dir/l6/8.c.o"
+"CMakeFiles/6_8.dir/src/term2/l6/8.c.o"
 
 # External object files for target 6_8
 6_8_EXTERNAL_OBJECTS =
 
-6_8: CMakeFiles/6_8.dir/l6/8.c.o
+6_8: CMakeFiles/6_8.dir/src/term2/l6/8.c.o
 6_8: CMakeFiles/6_8.dir/build.make
 6_8: CMakeFiles/6_8.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kato/dev/cprojects/college/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 6_8"
