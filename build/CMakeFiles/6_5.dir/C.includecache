@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kato/dev/cprojects/college/include/seed/seed.c
+stdlib.h
+-
+stdio.h
+-
+seed.h
+/home/kato/dev/cprojects/college/include/seed/seed.h
+
+/home/kato/dev/cprojects/college/include/seed/seed.h
+
+/home/kato/dev/cprojects/college/src/term2/l6/5.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+../../../include/seed/seed.h
+/home/kato/dev/cprojects/college/include/seed/seed.h
+
