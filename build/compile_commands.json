@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_4.dir/l6/4.c.o   -c /home/kato/dev/cprojects/college/l6/4.c",
+  "file": "/home/kato/dev/cprojects/college/l6/4.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_4.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_1.dir/l7/1.c.o   -c /home/kato/dev/cprojects/college/l7/1.c",
+  "file": "/home/kato/dev/cprojects/college/l7/1.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_1.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_5.dir/l6/5.c.o   -c /home/kato/dev/cprojects/college/l6/5.c",
+  "file": "/home/kato/dev/cprojects/college/l6/5.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_5.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_3.dir/l6/3.c.o   -c /home/kato/dev/cprojects/college/l6/3.c",
+  "file": "/home/kato/dev/cprojects/college/l6/3.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_3.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_2.dir/l6/2.c.o   -c /home/kato/dev/cprojects/college/l6/2.c",
+  "file": "/home/kato/dev/cprojects/college/l6/2.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_7.dir/l6/7.c.o   -c /home/kato/dev/cprojects/college/l6/7.c",
+  "file": "/home/kato/dev/cprojects/college/l6/7.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_8.dir/l6/8.c.o   -c /home/kato/dev/cprojects/college/l6/8.c",
+  "file": "/home/kato/dev/cprojects/college/l6/8.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_4.dir/l7/4.c.o   -c /home/kato/dev/cprojects/college/l7/4.c",
+  "file": "/home/kato/dev/cprojects/college/l7/4.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_4.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_6.dir/l6/6.c.o   -c /home/kato/dev/cprojects/college/l6/6.c",
+  "file": "/home/kato/dev/cprojects/college/l6/6.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_2.dir/l7/2.c.o   -c /home/kato/dev/cprojects/college/l7/2.c",
+  "file": "/home/kato/dev/cprojects/college/l7/2.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_2.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_1.dir/l6/1.c.o   -c /home/kato/dev/cprojects/college/l6/1.c",
+  "file": "/home/kato/dev/cprojects/college/l6/1.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_3.dir/l7/3.c.o   -c /home/kato/dev/cprojects/college/l7/3.c",
+  "file": "/home/kato/dev/cprojects/college/l7/3.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_3.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
+  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+}
+]

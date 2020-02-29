@@ -1,0 +1,1 @@
+/bin/gcc-9 -g   CMakeFiles/6_2.dir/l6/2.c.o  -o 6_2 
