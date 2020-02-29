@@ -1,8 +1,3 @@
-/*  Author: Ivan Tkachuk
-    Name: Get min element in array
-    Date: 28.02.2020 16:53
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,46 +7,43 @@
 #define MIN 1
 #define MAX 10
 
-int getMinElement(int numOfElements, int *array);
+int min_elem(int length_array, int *array);
+int even(int n);
 
-int main(int argc, char *argv[])
-{
-    int numOfElements;
-    int *array;
+int main(int argc, char *argv[]) {
+  int length_array, *array;
 
-    printf("Enter num of elements: ");
-    scanf("%d", &numOfElements);
+  printf("Enter num of elements: ");
+  scanf("%d", &length_array);
 
-    srand(time(NULL));
+  srand(time(NULL));
 
-    array = calloc(numOfElements, sizeof(int));
-    if (!array)
-    {
-        printf("Can't create\n");
-        exit(1);
-    }
+  array = calloc(length_array, sizeof(int));
+  if (array == NULL) {
+    printf("Can't create\n");
+    exit(1);
+  }
 
-    fillArray(numOfElements, array, (int []){MIN, MAX});
-    printArray(numOfElements, array);
+  fillArray(length_array, array, (int[]){MIN, MAX});
+  printArray(length_array, array);
 
-    printf("\n%d\n", getMinElement(numOfElements, array));
+  printf("\n%d\n", min_elem(length_array, array));
 
-    free(array);
-    
-    return 0;
+  free(array);
+
+  return 0;
 }
 
-int getMinElement(int numOfElements, int *array)
-{
-    int min = array[0];
+int min_elem(int length_array, int *array) {
+  int min = array[0];
 
-    for (int *p = array; numOfElements--; p++)
-    {
-        if (numOfElements % 2 == 0)
-        {
-            min = (*p < min) ? *p : min;
-        }
+  for (int *p = array; length_array--; p++) {
+    if (even(length_array)) {
+      min = (*p < min) ? *p : min;
     }
+  }
 
-    return min;
+  return min;
 }
+
+int even(int n) { return n % 2 == 0; }
