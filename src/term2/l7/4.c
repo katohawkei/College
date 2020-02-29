@@ -1,8 +1,3 @@
-/*  Author: Ivan Tkachuk
-    Name: Generate new sequence
-    Date: 29.02.2020 16:55
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,8 +6,9 @@
 #define MIN -100
 #define MAX 100
 
-void insertInArray(int pos, int num, int numOfElements, int *array);
+void insert(int pos, int num, int numOfElements, int *array);
 int count(int numOfElements, int *array);
+int multiple_of_5(int n);
 
 int main(int argc, char const *argv[]) {
   int numOfElements, *array;
@@ -32,7 +28,7 @@ int main(int argc, char const *argv[]) {
   int *newarray;
   if ((newarray =
            (int *)realloc(array, (numOfElements + count(numOfElements, array)) *
-                                      sizeof(int))) == NULL) {
+                                     sizeof(int))) == NULL) {
     free(array);
     array = NULL;
     return 0;
@@ -45,8 +41,8 @@ int main(int argc, char const *argv[]) {
     sum += array[i];
     if (array[i] % 5 == 0) {
       numOfElements++;
-      insertInArray(i + 1, sum, numOfElements, array);
-      i++;  
+      insert(i + 1, sum, numOfElements, array);
+      i++;
     }
   }
 
@@ -58,7 +54,7 @@ int main(int argc, char const *argv[]) {
   return 0;
 }
 
-void insertInArray(int pos, int num, int numOfElements, int *array) {
+void insert(int pos, int num, int numOfElements, int *array) {
   for (int i = numOfElements - 1; i > pos; i--) {
     array[i] = array[i - 1];
   }
@@ -70,10 +66,12 @@ int count(int numOfElements, int *array) {
   int count = 0;
 
   for (int i = 0; i < numOfElements; i++) {
-    if (array[i] % 5 == 0) {
+    if (multiple_of_5(array[i])) {
       count++;
     }
   }
 
   return count;
 }
+
+int multiple_of_5(int n) { return n % 5 == 0; }
