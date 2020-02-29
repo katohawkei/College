@@ -1,8 +1,3 @@
-/*  Author: Ivan Tkachuk
-    Name: Get count of diffrent element in an array
-    Date: 28.02.2020 16:55
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,47 +7,42 @@
 #define MIN 0
 #define MAX 10
 
-int diffelem(int num, int *array);
+int how_many_diff_elem(int length_array, int *array);
 
-int main(int argc, char *argv[])
-{
-    int numOfElements, *array;
+int main(int argc, char *argv[]) {
+  int length_array, *array;
 
-    printf("Num of elements: ");
-    scanf("%d", &numOfElements);
+  printf("Num of elements: ");
+  scanf("%d", &length_array);
 
-    srand(time(NULL));
+  srand(time(NULL));
 
-    array = calloc(numOfElements, sizeof(int));
-    if (!array)
-    {
-        printf("Can't create\n");
-        exit(1);
-    }
+  array = calloc(length_array, sizeof(int));
+  if (array == NULL) {
+    printf("Can't create\n");
+    exit(1);
+  }
 
-    fillArray(numOfElements, array, (int[]){MIN, MAX});
-    printArray(numOfElements, array);
+  fillArray(length_array, array, (int[]){MIN, MAX});
+  printArray(length_array, array);
 
-    printf("diff = %d\n", diffelem(numOfElements, array));
+  printf("diff = %d\n", how_many_diff_elem(length_array, array));
 
-    free(array);
+  free(array);
 
-    return 0;
+  return 0;
 }
 
-int diffelem(int num, int *array)
-{
-    int diff = 0;
+int how_many_diff_elem(int length_array, int *array) {
+  int diff = 0;
 
-    for (int i = 0; i < num; i++)
-    {
-        int j = 0;
-        while (j < i && *(array + j) != *(array + i))
-        {
-            j++;
-        }   
-        diff += j == i;
+  for (int i = 0; i < length_array; i++) {
+    int j = 0;
+    while (j < i && *(array + j) != *(array + i)) {
+      j++;
     }
+    diff += j == i;
+  }
 
-    return diff;
+  return diff;
 }
