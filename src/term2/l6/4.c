@@ -1,8 +1,3 @@
-/*  Author:     Ivan Tkachuk
-    Name:       Print index of max elements in an array
-    Log:        Formatted 22.02.2020 18:31
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,36 +7,36 @@
 #define MIN -10
 #define MAX 10
 
-int getAbsoluteMaxElement(int numOfElements, int *array);
-void printIndexesMaxElements(int numOfElements, int *array);
+int abs_max_elem(int length_array, int *array);
+void print_indexes_max_elems(int length_array, int *array);
 
 int main()
 {
-    int numOfElements, *array;
+    int length_array, *array;
 
     srand(time(NULL));
 
     printf("Num of Elements: ");
-    scanf("%d", &numOfElements);
-    array = (int *)calloc(numOfElements, sizeof(int));
-    if (!array)
+    scanf("%d", &length_array);
+    array = (int *)calloc(length_array, sizeof(int));
+    if (array == NULL)
     {
         printf("Can't create\n");
         exit(1);
     }
 
-    fillArray(numOfElements, array, (int[]){MIN, MAX});
-    printArray(numOfElements, array);
+    fillArray(length_array, array, (int[]){MIN, MAX});
+    printArray(length_array, array);
 
-    printIndexesMaxElements(numOfElements, array);
+    print_indexes_max_elems(length_array, array);
 
     return 0;
 }
 
-int getAbsoluteMaxElement(int numOfElements, int *array)
+int abs_max_elem(int length_array, int *array)
 {
     int max = abs(array[0]);
-    for (int i = 0; i < numOfElements; i++)
+    for (int i = 0; i < length_array; i++)
     {
         if (abs(max) < array[i])
             max = abs(array[i]);
@@ -50,11 +45,11 @@ int getAbsoluteMaxElement(int numOfElements, int *array)
     return max;
 }
 
-void printIndexesMaxElements(int numOfElements, int *array)
+void print_indexes_max_elems(int length_array, int *array)
 {
-    int max = getAbsoluteMaxElement(numOfElements, array);
+    int max = abs_max_elem(length_array, array);
 
-    for (int i = 0; i < numOfElements; i++)
+    for (int i = 0; i < length_array; i++)
     {
         if (max == abs(array[i]))
         {
