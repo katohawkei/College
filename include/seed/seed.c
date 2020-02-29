@@ -3,6 +3,7 @@
 
 #include "seed.h"
 
+// Return random num in range between min and max
 double getRandomNum(const double min, const double max) {
     return ((double) rand() / RAND_MAX) * (max - min + 1) + min;
 }
