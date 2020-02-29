@@ -1,8 +1,3 @@
-/*  Author:     Ivan Tkachuk
-    Name:       Get average of elements in an array
-    Log:        Formatted 22.02.2020 18:17
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,37 +6,37 @@
 #define MIN -50
 #define MAX 50
 
-double getAverage(int numOfElements, int *array);
+double average(int length_array, int *array);
 
 int main()
 {
-    int numOfElements, *array;
+    int length_array, *array;
 
     printf("Num of elements: ");
-    scanf("%d", &numOfElements);
+    scanf("%d", &length_array);
 
-    array = (int *)calloc(numOfElements, sizeof(int));
-    if (!array)
+    array = (int *) calloc(length_array, sizeof(int));
+    if (array == NULL)
     {
         printf("Can't create\n");
         exit(1);
     }
 
-    fillArray(numOfElements, array, (int[]){MIN, MAX});
-    printArray(numOfElements, array);
-    printf("\n%lf\n", getAverage(numOfElements, array));
+    fillArray(length_array, array, (int[]){MIN, MAX});
+    printArray(length_array, array);
+    printf("\n%lf\n", average(length_array, array));
 
     return 0;
 }
 
-double getAverage(int numOfElements, int *array)
+double average(int length_array, int *array)
 {
     double average = 0;
 
-    for (int i = 0; i < numOfElements; i++)
+    for (int i = 0; i < length_array; i++)
     {
         average += array[i];
     }
 
-    return average / numOfElements;
+    return average / length_array;
 }
