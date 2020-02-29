@@ -1,9 +1,3 @@
-/*  Author:     Ivan Tkachuk
-    Name:       Find max negative element
-                and print elements' address in an array
-    Log:        Changed 22.02.2020 19:18
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -13,39 +7,39 @@
 #define MIN -100
 #define MAX 100
 
-int maxNegativeElement(int numOfElements, int *array);
-void printAddressesOfElements(int numOfElements, int *array);
+int max_negative_elem(int length_array, int *array);
+void print_addresses_elems(int length_array, int *array);
 
 int main()
 {
-    int numOfElements, *array;
+    int length_array, *array;
 
     srand(time(NULL));
 
     printf("Num of Elements: ");
-    scanf("%d", &numOfElements);
+    scanf("%d", &length_array);
 
-    array = calloc(numOfElements, sizeof(int));
-    if (!array)
+    array = calloc(length_array, sizeof(int));
+    if (array == NULL)
     {
         printf("Can't create\n");
         exit(1);
     }
 
-    fillArray(numOfElements, array, (int[]){MIN, MAX});
-    printArray(numOfElements, array);
+    fillArray(length_array, array, (int[]){MIN, MAX});
+    printArray(length_array, array);
 
-    printAddressesOfElements(numOfElements, array);
-    printf("%d\n", maxNegativeElement(numOfElements, array));
+    print_addresses_elems(length_array, array);
+    printf("%d\n", max_negative_elem(length_array, array));
 
     return 0;
 }
 
-int maxNegativeElement(int numOfElements, int *array)
+int max_negative_elem(int length_array, int *array)
 {
     int max = 0;
 
-    for (int i = 0; i < numOfElements; i++)
+    for (int i = 0; i < length_array; i++)
     {
         if (array[i] < 0 && abs(max) < abs(array[i]))
             max = array[i];
@@ -54,9 +48,9 @@ int maxNegativeElement(int numOfElements, int *array)
     return max;
 }
 
-void printAddressesOfElements(int numOfElements, int *array)
+void print_addresses_elems(int length_array, int *array)
 {
-    for (int *p = array; numOfElements--; p++)
+    for (int *p = array; length_array--; p++)
     {
         printf("%p\t", p);
     }
