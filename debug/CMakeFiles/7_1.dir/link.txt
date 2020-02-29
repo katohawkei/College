@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/7_1.dir/l7/1.c.o CMakeFiles/7_1.dir/include/seed/seed.c.o  -o 7_1 

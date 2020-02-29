@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/6_8.dir/l6/8.c.o  -o 6_8 
