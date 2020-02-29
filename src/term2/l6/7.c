@@ -3,7 +3,7 @@
 
 int main()
 {
-
+    // init vars & pointers
     char ac = 'f', bc = '2';
     char *pac = &ac, *pbc = &bc;
     long int al = 3, bl = 4;
