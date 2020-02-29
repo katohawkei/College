@@ -45,7 +45,6 @@ int main(int argc, char const *argv[]) {
     sum += array[i];
     if (array[i] % 5 == 0) {
       numOfElements++;
-      // FIXME: the problems with memory
       insertInArray(i + 1, sum, numOfElements, array);
       i++;  
     }
@@ -60,7 +59,7 @@ int main(int argc, char const *argv[]) {
 }
 
 void insertInArray(int pos, int num, int numOfElements, int *array) {
-  for (int i = numOfElements; i > pos; i--) {
+  for (int i = numOfElements - 1; i > pos; i--) {
     array[i] = array[i - 1];
   }
 
