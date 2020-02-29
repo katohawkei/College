@@ -3,6 +3,7 @@
 
 int main()
 {
+    // init vars
     int i = 5;
     char c = 'a';
     float f = 3.1;
@@ -10,6 +11,7 @@ int main()
 
     printf("%d\t%c\t%f\t%lf\n", i, c, f, d);
 
+    // init pinters
     int *pi = &i, **pa;
     char *pc = NULL;
     float *pf = &f;
@@ -25,6 +27,9 @@ int main()
     pd = fd;
 
     printf("%p\t%p\t%p\t%p\n%p\t%p\n", pi, pc, pf, pd, arr, fd);
+
+    free(arr);
+    free(fd);
 
     *pi = 3;
     pc = &c;
