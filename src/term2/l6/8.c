@@ -5,15 +5,14 @@ int main() {
   // init vars
   double zero = 0.0, pi = 3.141593, Euler = 2.718282;
   // init pointers
-  double *p_zero = &zero;
-  double *p_pi = &pi;
-  double *p_euler = &Euler;
+  double *p = &zero;
 
-  zero++;
-  pi++;
-  Euler++;
+  printf("%lf\n", *p);
 
-  printf("%lf\t%lf\t%lf\n", *p_zero, *p_pi, *p_euler);
-
+  p = p + (&pi - &zero);
+  printf("%lf\n", *p);
+  p = p + (&Euler - &pi);
+  printf("%lf\n", *p);
+  
   return 0;
 }

@@ -1,6 +1,16 @@
 [
 {
   "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/8_4.dir/src/term2/l8/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/1.c",
+  "file": "/home/kato/dev/cprojects/college/src/term2/l8/1.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/8_4.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
+  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
+},
+{
+  "directory": "/home/kato/dev/cprojects/college/build",
   "command": "/bin/gcc-9   -g   -o CMakeFiles/6_4.dir/src/term2/l6/4.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/4.c",
   "file": "/home/kato/dev/cprojects/college/src/term2/l6/4.c"
 },

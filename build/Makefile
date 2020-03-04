@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 8_4
+
+# Build rule for target.
+8_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8_4
+.PHONY : 8_4
+
+# fast build rule for target.
+8_4/fast:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/build
+.PHONY : 8_4/fast
+
+#=============================================================================
 # Target rules for targets named 6_4
 
 # Build rule for target.
@@ -265,6 +278,33 @@ depend:
 7_3/fast:
 	$(MAKE) -f CMakeFiles/7_3.dir/build.make CMakeFiles/7_3.dir/build
 .PHONY : 7_3/fast
+
+include/matrix/matrix.o: include/matrix/matrix.c.o
+
+.PHONY : include/matrix/matrix.o
+
+# target to build an object file
+include/matrix/matrix.c.o:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/include/matrix/matrix.c.o
+.PHONY : include/matrix/matrix.c.o
+
+include/matrix/matrix.i: include/matrix/matrix.c.i
+
+.PHONY : include/matrix/matrix.i
+
+# target to preprocess a source file
+include/matrix/matrix.c.i:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/include/matrix/matrix.c.i
+.PHONY : include/matrix/matrix.c.i
+
+include/matrix/matrix.s: include/matrix/matrix.c.s
+
+.PHONY : include/matrix/matrix.s
+
+# target to generate assembly for a file
+include/matrix/matrix.c.s:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/include/matrix/matrix.c.s
+.PHONY : include/matrix/matrix.c.s
 
 include/seed/seed.o: include/seed/seed.c.o
 
@@ -635,6 +675,33 @@ src/term2/l7/4.c.s:
 	$(MAKE) -f CMakeFiles/7_4.dir/build.make CMakeFiles/7_4.dir/src/term2/l7/4.c.s
 .PHONY : src/term2/l7/4.c.s
 
+src/term2/l8/1.o: src/term2/l8/1.c.o
+
+.PHONY : src/term2/l8/1.o
+
+# target to build an object file
+src/term2/l8/1.c.o:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/src/term2/l8/1.c.o
+.PHONY : src/term2/l8/1.c.o
+
+src/term2/l8/1.i: src/term2/l8/1.c.i
+
+.PHONY : src/term2/l8/1.i
+
+# target to preprocess a source file
+src/term2/l8/1.c.i:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/src/term2/l8/1.c.i
+.PHONY : src/term2/l8/1.c.i
+
+src/term2/l8/1.s: src/term2/l8/1.c.s
+
+.PHONY : src/term2/l8/1.s
+
+# target to generate assembly for a file
+src/term2/l8/1.c.s:
+	$(MAKE) -f CMakeFiles/8_4.dir/build.make CMakeFiles/8_4.dir/src/term2/l8/1.c.s
+.PHONY : src/term2/l8/1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -643,6 +710,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 8_4"
 	@echo "... 6_4"
 	@echo "... 7_1"
 	@echo "... 6_5"
@@ -655,6 +723,9 @@ help:
 	@echo "... 7_2"
 	@echo "... 6_1"
 	@echo "... 7_3"
+	@echo "... include/matrix/matrix.o"
+	@echo "... include/matrix/matrix.i"
+	@echo "... include/matrix/matrix.s"
 	@echo "... include/seed/seed.o"
 	@echo "... include/seed/seed.i"
 	@echo "... include/seed/seed.s"
@@ -694,6 +765,9 @@ help:
 	@echo "... src/term2/l7/4.o"
 	@echo "... src/term2/l7/4.i"
 	@echo "... src/term2/l7/4.s"
+	@echo "... src/term2/l8/1.o"
+	@echo "... src/term2/l8/1.i"
+	@echo "... src/term2/l8/1.s"
 .PHONY : help
 
 

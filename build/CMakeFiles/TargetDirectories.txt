@@ -1,5 +1,6 @@
 /home/kato/dev/cprojects/college/build/CMakeFiles/rebuild_cache.dir
 /home/kato/dev/cprojects/college/build/CMakeFiles/edit_cache.dir
+/home/kato/dev/cprojects/college/build/CMakeFiles/8_4.dir
 /home/kato/dev/cprojects/college/build/CMakeFiles/6_4.dir
 /home/kato/dev/cprojects/college/build/CMakeFiles/7_1.dir
 /home/kato/dev/cprojects/college/build/CMakeFiles/6_5.dir

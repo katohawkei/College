@@ -3,6 +3,7 @@
     "vscodeGoogleTranslate.preferredLanguage": "English",
     "files.associations": {
         "seed.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "matrix.h": "c"
     }
 }
