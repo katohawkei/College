@@ -6,37 +6,35 @@
 #define MIN -10
 #define MAX 10
 
+int even(int num);
 int sumDiagonal(size_t n, int **matrix);
 void changeMatrix(size_t n, int **matrix);
+
+void solution(size_t n);
 
 int main() 
 {
     size_t n;
-    int **matrix;
 
     printf("n = ");
     scanf("%ld", &n);
 
-    matrix = (int **) malloc(n * sizeof(int *));
-    for (size_t i = 0; i < n; i++) 
-    {
-        matrix[i] = (int *) malloc(n * sizeof(int));
-    }
-
-    fillMatrix(n, matrix, (int[]){MIN, MAX});
-    printMatrix(n, matrix);
-    printf("\n");
-    changeMatrix(n, matrix);
-    printMatrix(n, matrix);
-
-    for (size_t i = 0; i < n; i++)
-    {
-        free(matrix[i]);
-    }
-
-    free(matrix);
+    solution(n);
 
     return 0;
+}
+
+void solution(size_t n)
+{
+    int **matrix = createMatrix(n, n);
+
+    fillMatrix(n, n, matrix, (int[]){MIN, MAX});
+    printMatrix(n, n, matrix);
+
+    changeMatrix(n, matrix);
+    printMatrix(n, n, matrix);
+
+    freeMatrix(n, matrix);
 }
 
 int sumDiagonal(size_t n, int **matrix) 

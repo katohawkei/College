@@ -1,0 +1,1 @@
+/bin/gcc-9 -g   CMakeFiles/2.dir/src/term2/l8/2.c.o CMakeFiles/2.dir/include/matrix/matrix.c.o  -o 2 

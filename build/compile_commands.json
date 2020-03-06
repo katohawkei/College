@@ -1,107 +1,42 @@
 [
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/8_4.dir/src/term2/l8/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/1.c",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/1.dir/src/term2/l8/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/1.c",
   "file": "/home/kato/dev/cprojects/college/src/term2/l8/1.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/8_4.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/1.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
   "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_4.dir/src/term2/l6/4.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/4.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/4.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/3.dir/src/term2/l8/3.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/3.c",
+  "file": "/home/kato/dev/cprojects/college/src/term2/l8/3.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_4.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/3.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
+  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_1.dir/src/term2/l7/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l7/1.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l7/1.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/4.dir/src/term2/l8/4.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/4.c",
+  "file": "/home/kato/dev/cprojects/college/src/term2/l8/4.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_1.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/4.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
+  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_5.dir/src/term2/l6/5.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/5.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/5.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/2.dir/src/term2/l8/2.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/2.c",
+  "file": "/home/kato/dev/cprojects/college/src/term2/l8/2.c"
 },
 {
   "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_5.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_3.dir/src/term2/l6/3.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/3.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/3.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_3.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_2.dir/src/term2/l6/2.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/2.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/2.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_7.dir/src/term2/l6/7.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/7.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/7.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_8.dir/src/term2/l6/8.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/8.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/8.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_4.dir/src/term2/l7/4.c.o   -c /home/kato/dev/cprojects/college/src/term2/l7/4.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l7/4.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_4.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_6.dir/src/term2/l6/6.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/6.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/6.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_2.dir/src/term2/l7/2.c.o   -c /home/kato/dev/cprojects/college/src/term2/l7/2.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l7/2.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_2.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/6_1.dir/src/term2/l6/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l6/1.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l6/1.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_3.dir/src/term2/l7/3.c.o   -c /home/kato/dev/cprojects/college/src/term2/l7/3.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l7/3.c"
-},
-{
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/7_3.dir/include/seed/seed.c.o   -c /home/kato/dev/cprojects/college/include/seed/seed.c",
-  "file": "/home/kato/dev/cprojects/college/include/seed/seed.c"
+  "command": "/bin/gcc-9   -g   -o CMakeFiles/2.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
+  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
 }
 ]

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kato/dev/cprojects/college/include/matrix/matrix.c
+stdlib.h
+-
+stdio.h
+-
+matrix.h
+/home/kato/dev/cprojects/college/include/matrix/matrix.h
+
+/home/kato/dev/cprojects/college/include/matrix/matrix.h
+stdlib.h
+-
+
+/home/kato/dev/cprojects/college/src/term2/l8/2.c
+stdio.h
+-
+stdlib.h
+-
+../../../include/matrix/matrix.h
+/home/kato/dev/cprojects/college/include/matrix/matrix.h
+
