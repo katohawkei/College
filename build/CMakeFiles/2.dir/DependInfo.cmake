@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kato/dev/cprojects/college/include/matrix/matrix.c" "/home/kato/dev/cprojects/college/build/CMakeFiles/2.dir/include/matrix/matrix.c.o"
-  "/home/kato/dev/cprojects/college/src/term2/l8/2.c" "/home/kato/dev/cprojects/college/build/CMakeFiles/2.dir/src/term2/l8/2.c.o"
+  "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c" "C:/Dev/c_cpp_projects/College/build/CMakeFiles/2.dir/include/matrix/matrix.c.obj"
+  "C:/Dev/c_cpp_projects/College/src/term2/l8/2.c" "C:/Dev/c_cpp_projects/College/build/CMakeFiles/2.dir/src/term2/l8/2.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

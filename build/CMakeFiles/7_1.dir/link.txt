@@ -1,1 +1,0 @@
-/bin/gcc-9 -g   CMakeFiles/7_1.dir/src/term2/l7/1.c.o CMakeFiles/7_1.dir/include/seed/seed.c.o  -o 7_1 

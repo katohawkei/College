@@ -1,1 +1,3 @@
-/bin/gcc-9 -g   CMakeFiles/1.dir/src/term2/l8/1.c.o CMakeFiles/1.dir/include/matrix/matrix.c.o  -o 1 
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\1.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\1.dir/objects.a @CMakeFiles\1.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\1.dir/objects.a -Wl,--no-whole-archive  -o 1.exe -Wl,--out-implib,lib1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1.dir\linklibs.rsp

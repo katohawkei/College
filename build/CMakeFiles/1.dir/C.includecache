@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/kato/dev/cprojects/college/include/matrix/matrix.h
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.c
+stdlib.h
+-
+stdio.h
+-
+matrix.h
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.h
+
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.h
 stddef.h
 -
 
-/home/kato/dev/cprojects/college/src/term2/l8/1.c
+C:/Dev/c_cpp_projects/College/src/term2/l8/1.c
 stdio.h
 -
 stdlib.h
 -
 ../../../include/matrix/matrix.h
-/home/kato/dev/cprojects/college/include/matrix/matrix.h
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.h
 

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/4.dir/src/term2/l8/4.c.o"
-  "CMakeFiles/4.dir/include/matrix/matrix.c.o"
+  "4.exe"
+  "4.exe.manifest"
   "4.pdb"
-  "4"
+  "CMakeFiles/4.dir/include/matrix/matrix.c.obj"
+  "CMakeFiles/4.dir/src/term2/l8/4.c.obj"
+  "lib4.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

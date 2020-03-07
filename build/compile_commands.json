@@ -1,42 +1,42 @@
 [
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/1.dir/src/term2/l8/1.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/1.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l8/1.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\1.dir\\src\\term2\\l8\\1.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l8\\1.c",
+  "file": "C:/Dev/c_cpp_projects/College/src/term2/l8/1.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/1.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
-  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\1.dir\\include\\matrix\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\matrix\\matrix.c",
+  "file": "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/3.dir/src/term2/l8/3.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/3.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l8/3.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\2.dir\\src\\term2\\l8\\2.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l8\\2.c",
+  "file": "C:/Dev/c_cpp_projects/College/src/term2/l8/2.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/3.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
-  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\2.dir\\include\\matrix\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\matrix\\matrix.c",
+  "file": "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/4.dir/src/term2/l8/4.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/4.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l8/4.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\3.dir\\src\\term2\\l8\\3.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l8\\3.c",
+  "file": "C:/Dev/c_cpp_projects/College/src/term2/l8/3.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/4.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
-  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\3.dir\\include\\matrix\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\matrix\\matrix.c",
+  "file": "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/2.dir/src/term2/l8/2.c.o   -c /home/kato/dev/cprojects/college/src/term2/l8/2.c",
-  "file": "/home/kato/dev/cprojects/college/src/term2/l8/2.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\4.dir\\src\\term2\\l8\\4.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l8\\4.c",
+  "file": "C:/Dev/c_cpp_projects/College/src/term2/l8/4.c"
 },
 {
-  "directory": "/home/kato/dev/cprojects/college/build",
-  "command": "/bin/gcc-9   -g   -o CMakeFiles/2.dir/include/matrix/matrix.c.o   -c /home/kato/dev/cprojects/college/include/matrix/matrix.c",
-  "file": "/home/kato/dev/cprojects/college/include/matrix/matrix.c"
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe   -g   -o CMakeFiles\\4.dir\\include\\matrix\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\matrix\\matrix.c",
+  "file": "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c"
 }
 ]

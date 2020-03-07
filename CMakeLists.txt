@@ -1,11 +1,8 @@
-
-cmake_minimum_required(VERSION 3.13.4)
+cmake_minimum_required(VERSION 3.17.0)
 
 project(College)
 
-set(CMAKE_C_STANDART 11)
 set(MATRIX_LIB include/matrix/matrix.c include/matrix/matrix.h)
-
 #set(SEED_LIB include/seed/seed.c include/seed/seed.h)
 
 # LABA 6
