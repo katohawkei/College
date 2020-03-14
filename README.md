@@ -1,8 +1,9 @@
 # College
 
 ## Changes:
-  * **24.02.2020** Added l6, l7, l8
-  * **14.03.2020** Added l9 (2.c and 3.c)
+  * ***24.02.2020***     Added l6, l7, l8
+  * ***04.03.2020***     Updated cmake for **Windows 10**
+  * ***14.03.2020***     Added l9 (2.c and 3.c)
 
 ### L9 
   #### [source code 2.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/2.c)
