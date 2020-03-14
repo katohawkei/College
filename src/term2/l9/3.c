@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n);
+    int **matrix = createMatrix(n, n);
 
     if (matrix == NULL)
     {
@@ -36,8 +36,8 @@ void solution(size_t n)
 
     srand(time(NULL));
 
-    fillMatrix(n, matrix, (const int []){MIN, MAX});
-    printMatrix(n, matrix);
+    fillMatrix(n, n, matrix, (const int []){MIN, MAX});
+    printMatrix(n, n, matrix);
 
     printf("sum = %d\n", productMaxMin(n, matrix));
 
