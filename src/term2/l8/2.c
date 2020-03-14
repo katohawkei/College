@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../../include/matrix/matrix.h"
+// #include "../../../include/matrix/matrix.h"
+#include "matrix.h"
 
 #define MIN -10
 #define MAX 10
@@ -25,13 +26,19 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n, n);
+    int **matrix = createMatrix(n);
 
-    fillMatrix(n, n, matrix, (int[]){MIN, MAX});
-    printMatrix(n, n, matrix);
+    fillMatrix(n, matrix, (int[]){MIN, MAX});
+    printMatrix(n, matrix);
 
     delete(n, matrix);
-    printMatrix(n - 1, n, matrix);
+    for (size_t i = 0; i < n - 1; i++)
+    {
+        for (size_t j = 0; j < n; j++)
+        {
+            printf("%6d ", matrix[i][j]);
+        }
+    }
 
     freeMatrix(n - 1, matrix);
 }

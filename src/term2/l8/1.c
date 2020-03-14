@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../../include/matrix/matrix.h"
+// #include "../../../include/matrix/matrix.h"
+#include "matrix.h"
 
 #define MIN -10
 #define MAX 10
 
-int even(int num);
+int even(int num) { return num % 2 == 0 };
+
 int sumDiagonal(size_t n, int **matrix);
 void changeMatrix(size_t n, int **matrix);
 
@@ -26,13 +28,13 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n, n);
+    int **matrix = createMatrix(n);
 
-    fillMatrix(n, n, matrix, (int[]){MIN, MAX});
-    printMatrix(n, n, matrix);
+    fillMatrix(n, matrix, (int[]){MIN, MAX});
+    printMatrix(n, matrix);
 
     changeMatrix(n, matrix);
-    printMatrix(n, n, matrix);
+    printMatrix(n, matrix);
 
     freeMatrix(n, matrix);
 }
@@ -46,11 +48,6 @@ int sumDiagonal(size_t n, int **matrix)
     }
     
     return sum;
-}
-
-int even(int num)
-{
-    return num % 2 == 0;
 }
 
 void changeMatrix(size_t n, int **matrix)

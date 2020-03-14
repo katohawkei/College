@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../../include/matrix/matrix.h"
+#include "matrix.h"
 
 #define MIN -10
 #define MAX 10
@@ -25,10 +25,10 @@ int main(int argc, char const *argv[])
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n, n);
+    int **matrix = createMatrix(n);
 
-    fillMatrix(n, n, matrix, (int []){MIN, MAX});
-    printMatrix(n, n, matrix);
+    fillMatrix(n, matrix, (int []){MIN, MAX});
+    printMatrix(n, matrix);
     
     printf("min = %d\n", minDiagonalEl(n, matrix));
     printf("sum = %d\n", sumDiagonal(n, matrix));

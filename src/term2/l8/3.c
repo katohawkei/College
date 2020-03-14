@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include "../../../include/matrix/matrix.h"
+#include "matrix.h"
 
 
 #define MIN -10
@@ -33,10 +33,10 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n, n);
+    int **matrix = createMatrix(n);
 
-    fillMatrix(n, n, matrix, (int []){MIN, MAX});
-    printMatrix(n, n, matrix);
+    fillMatrix(n, matrix, (int []){MIN, MAX});
+    printMatrix(n, matrix);
 
     printf("pos average = %d", average(n, matrix, positive));
     printf("\nneg average = %d", average(n, matrix, negative));
