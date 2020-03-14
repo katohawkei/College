@@ -10,13 +10,15 @@
 int sumMatrix(size_t n, int **matrix);
 void solution(size_t n);
 
-int main()
+int main(int argc, char *argv[])
 {
-    size_t n;
+    if (argc != 2)
+    {
+        printf("usage: 2 <n of matrix>\n");
+        exit(1);
+    }
 
-    printf("Enter n: ");
-    scanf("%ld", &n);
-
+    size_t n = atoi(argv[1]);
     solution(n);
 
     return 0;
