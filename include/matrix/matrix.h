@@ -2,10 +2,10 @@
 
 double _random(const double min, const double max);
 
-int **createMatrix(size_t n, size_t m);
+int **createMatrix(size_t n);
 
-void fillMatrix(size_t n, size_t m, int **matrix, const int range[]);
+void fillMatrix(size_t n, int **matrix, const int range[]);
 
-void printMatrix(size_t n, size_t m, int **matrix);
+void printMatrix(size_t n, int **matrix);
 
 void freeMatrix(size_t n, int **matrix);
