@@ -127,6 +127,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+include/CMakeFiles/seed.dir/rule:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 include/CMakeFiles/seed.dir/rule
+.PHONY : include/CMakeFiles/seed.dir/rule
+
+# Convenience name for target.
+seed: include/CMakeFiles/seed.dir/rule
+
+.PHONY : seed
+
+# fast build rule for target.
+seed/fast:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/build
+.PHONY : seed/fast
+
+# Convenience name for target.
 include/CMakeFiles/matrix.dir/rule:
 	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 include/CMakeFiles/matrix.dir/rule
 .PHONY : include/CMakeFiles/matrix.dir/rule
@@ -168,6 +183,33 @@ matrix/matrix.c.s:
 	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/matrix/matrix.c.s
 .PHONY : matrix/matrix.c.s
 
+seed/seed.obj: seed/seed.c.obj
+
+.PHONY : seed/seed.obj
+
+# target to build an object file
+seed/seed.c.obj:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/seed/seed.c.obj
+.PHONY : seed/seed.c.obj
+
+seed/seed.i: seed/seed.c.i
+
+.PHONY : seed/seed.i
+
+# target to preprocess a source file
+seed/seed.c.i:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/seed/seed.c.i
+.PHONY : seed/seed.c.i
+
+seed/seed.s: seed/seed.c.s
+
+.PHONY : seed/seed.s
+
+# target to generate assembly for a file
+seed/seed.c.s:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/seed/seed.c.s
+.PHONY : seed/seed.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,9 +219,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... matrix
+	@echo ... seed
 	@echo ... matrix/matrix.obj
 	@echo ... matrix/matrix.i
 	@echo ... matrix/matrix.s
+	@echo ... seed/seed.obj
+	@echo ... seed/seed.i
+	@echo ... seed/seed.s
 .PHONY : help
 
 

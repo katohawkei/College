@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.c
+stdlib.h
+-
+stdio.h
+-
+matrix.h
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.h
+
+C:/Dev/c_cpp_projects/College/include/matrix/matrix.h
+stddef.h
+-
+

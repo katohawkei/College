@@ -10,6 +10,16 @@
   "file": "C:/Dev/c_cpp_projects/College/src/term2/l9/3.c"
 },
 {
+  "directory": "C:/Dev/c_cpp_projects/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/4.dir/includes_C.rsp -g   -o CMakeFiles\\4.dir\\src\\term2\\l9\\4.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l9\\4.c",
+  "file": "C:/Dev/c_cpp_projects/College/src/term2/l9/4.c"
+},
+{
+  "directory": "C:/Dev/c_cpp_projects/College/build/include",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/seed.dir/includes_C.rsp -g   -o CMakeFiles\\seed.dir\\seed\\seed.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\seed\\seed.c",
+  "file": "C:/Dev/c_cpp_projects/College/include/seed/seed.c"
+},
+{
   "directory": "C:/Dev/c_cpp_projects/College/build/include",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/matrix.dir/includes_C.rsp -g   -o CMakeFiles\\matrix.dir\\matrix\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\include\\matrix\\matrix.c",
   "file": "C:/Dev/c_cpp_projects/College/include/matrix/matrix.c"
