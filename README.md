@@ -7,8 +7,8 @@
   * ***14.03.2020***     Added l9 (2.c, 3.c, 4.c)
 
 ### L9 
-  #### [source code for matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix/matrix.c)
-  #### [source code for seed.h](https://github.com/katohawkei/College/blob/master/include/seed/seed.c)
+  #### [source code for matrix.h](https://github.com/katohawkei/College/blob/master/lib/matrix.c)
+  #### [source code for seed.h](https://github.com/katohawkei/College/blob/master/lib/seed.c)
   
   
   
