@@ -1,8 +1,8 @@
 # College
 
 ## Changes:
-  * ***24.02.2020***     Added l6, l7, l8
-  * ***04.03.2020***     Updated cmake for **Windows 10**
+  * ***28.02.2020***     Added l6, l7, l8
+  * ***28.02.2020***     Updated cmake for **Windows 10**
   * ***14.03.2020***     Updated cmake for using my lib include
   * ***14.03.2020***     Added l9 (2.c and 3.c)
 
