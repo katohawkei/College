@@ -33,10 +33,10 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n);
+    int **matrix = createMatrix(n, n);
 
-    fillMatrix(n, matrix, (int []){MIN, MAX});
-    printMatrix(n, matrix);
+    fillMatrix(n, n, matrix, (int []){MIN, MAX});
+    printMatrix(n, n, matrix);
 
     printf("pos average = %d", average(n, matrix, positive));
     printf("\nneg average = %d", average(n, matrix, negative));

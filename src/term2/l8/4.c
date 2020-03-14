@@ -25,10 +25,10 @@ int main(int argc, char const *argv[])
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n);
+    int **matrix = createMatrix(n, n);
 
-    fillMatrix(n, matrix, (int []){MIN, MAX});
-    printMatrix(n, matrix);
+    fillMatrix(n, n, matrix, (int []){MIN, MAX});
+    printMatrix(n, n, matrix);
     
     printf("min = %d\n", minDiagonalEl(n, matrix));
     printf("sum = %d\n", sumDiagonal(n, matrix));

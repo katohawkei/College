@@ -26,20 +26,14 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n);
+    int **matrix = createMatrix(n, n);
 
-    fillMatrix(n, matrix, (int[]){MIN, MAX});
-    printMatrix(n, matrix);
+    fillMatrix(n, n, matrix, (int[]){MIN, MAX});
+    printMatrix(n, n, matrix);
 
     delete(n, matrix);
-    for (size_t i = 0; i < n - 1; i++)
-    {
-        for (size_t j = 0; j < n; j++)
-        {
-            printf("%6d ", matrix[i][j]);
-        }
-    }
-
+    printMatrix(n -1, n, matrix);
+    
     freeMatrix(n - 1, matrix);
 }
 

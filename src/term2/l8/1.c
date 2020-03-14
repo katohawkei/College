@@ -7,7 +7,7 @@
 #define MIN -10
 #define MAX 10
 
-int even(int num) { return num % 2 == 0 };
+int even(int num) { return num % 2 == 0; };
 
 int sumDiagonal(size_t n, int **matrix);
 void changeMatrix(size_t n, int **matrix);
@@ -28,13 +28,13 @@ int main()
 
 void solution(size_t n)
 {
-    int **matrix = createMatrix(n);
+    int **matrix = createMatrix(n, n);
 
-    fillMatrix(n, matrix, (int[]){MIN, MAX});
-    printMatrix(n, matrix);
+    fillMatrix(n, n, matrix, (int[]){MIN, MAX});
+    printMatrix(n, n, matrix);
 
     changeMatrix(n, matrix);
-    printMatrix(n, matrix);
+    printMatrix(n, n, matrix);
 
     freeMatrix(n, matrix);
 }
