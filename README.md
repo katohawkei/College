@@ -4,11 +4,14 @@
   * ***28.02.2020***     Added l6, l7, l8
   * ***28.02.2020***     Updated cmake for **Windows 10**
   * ***14.03.2020***     Updated cmake for using my lib include
-  * ***14.03.2020***     Added l9 (2.c and 3.c)
+  * ***14.03.2020***     Added l9 (2.c, 3.c, 4.c)
 
 ### L9 
   #### [source code for matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix/matrix.c)
   #### [source code for seed.h](https://github.com/katohawkei/College/blob/master/include/seed/seed.c)
+  
+  
+  
   #### [source code 1.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/1.c)
   ![l9_1](docs/img/l9/1.gif)
 
