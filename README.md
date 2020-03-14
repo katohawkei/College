@@ -9,6 +9,9 @@
 ### L9 
   #### [source code for matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix/matrix.c)
   #### [source code for seed.h](https://github.com/katohawkei/College/blob/master/include/seed/seed.c)
+  
+  
+  
   #### [source code 1.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/1.c)
   ![l9_1](docs/img/l9/1.gif)
 
