@@ -18,7 +18,7 @@ void fillArray(int numOfElements, int *array, const int range[]) {
 // Print elements of array
 void printArray(int numOfElements, int *array) {
     for (int i = 0; i < numOfElements; i++)
-		printf("%d\t", array[i]);
+		printf("%6d ", array[i]);
 	
 	printf("\n");
 }
