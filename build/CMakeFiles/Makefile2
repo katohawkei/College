@@ -72,12 +72,12 @@ CMAKE_BINARY_DIR = C:\Dev\c_cpp_projects\College\build
 all: CMakeFiles/2.dir/all
 all: CMakeFiles/3.dir/all
 all: CMakeFiles/4.dir/all
-all: include/all
+all: lib/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: include/preinstall
+preinstall: lib/preinstall
 
 .PHONY : preinstall
 
@@ -85,35 +85,35 @@ preinstall: include/preinstall
 clean: CMakeFiles/2.dir/clean
 clean: CMakeFiles/3.dir/clean
 clean: CMakeFiles/4.dir/clean
-clean: include/clean
+clean: lib/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory include
+# Directory level rules for directory lib
 
 # Recursive "all" directory target.
-include/all: include/CMakeFiles/seed.dir/all
-include/all: include/CMakeFiles/matrix.dir/all
+lib/all: lib/CMakeFiles/seed.dir/all
+lib/all: lib/CMakeFiles/matrix.dir/all
 
-.PHONY : include/all
+.PHONY : lib/all
 
 # Recursive "preinstall" directory target.
-include/preinstall:
+lib/preinstall:
 
-.PHONY : include/preinstall
+.PHONY : lib/preinstall
 
 # Recursive "clean" directory target.
-include/clean: include/CMakeFiles/seed.dir/clean
-include/clean: include/CMakeFiles/matrix.dir/clean
+lib/clean: lib/CMakeFiles/seed.dir/clean
+lib/clean: lib/CMakeFiles/matrix.dir/clean
 
-.PHONY : include/clean
+.PHONY : lib/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/2.dir
 
 # All Build rule for target.
-CMakeFiles/2.dir/all: include/CMakeFiles/matrix.dir/all
+CMakeFiles/2.dir/all: lib/CMakeFiles/matrix.dir/all
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/depend
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=1,2 "Built target 2"
@@ -140,7 +140,7 @@ CMakeFiles/2.dir/clean:
 # Target rules for target CMakeFiles/3.dir
 
 # All Build rule for target.
-CMakeFiles/3.dir/all: include/CMakeFiles/matrix.dir/all
+CMakeFiles/3.dir/all: lib/CMakeFiles/matrix.dir/all
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/depend
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=3,4 "Built target 3"
@@ -167,8 +167,8 @@ CMakeFiles/3.dir/clean:
 # Target rules for target CMakeFiles/4.dir
 
 # All Build rule for target.
-CMakeFiles/4.dir/all: include/CMakeFiles/seed.dir/all
-CMakeFiles/4.dir/all: include/CMakeFiles/matrix.dir/all
+CMakeFiles/4.dir/all: lib/CMakeFiles/seed.dir/all
+CMakeFiles/4.dir/all: lib/CMakeFiles/matrix.dir/all
 	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/depend
 	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=5,6 "Built target 4"
@@ -192,58 +192,58 @@ CMakeFiles/4.dir/clean:
 .PHONY : CMakeFiles/4.dir/clean
 
 #=============================================================================
-# Target rules for target include/CMakeFiles/seed.dir
+# Target rules for target lib/CMakeFiles/seed.dir
 
 # All Build rule for target.
-include/CMakeFiles/seed.dir/all:
-	$(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/depend
-	$(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/build
+lib/CMakeFiles/seed.dir/all:
+	$(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/depend
+	$(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=9,10 "Built target seed"
-.PHONY : include/CMakeFiles/seed.dir/all
+.PHONY : lib/CMakeFiles/seed.dir/all
 
 # Build rule for subdir invocation for target.
-include/CMakeFiles/seed.dir/rule: cmake_check_build_system
+lib/CMakeFiles/seed.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 include/CMakeFiles/seed.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/seed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
-.PHONY : include/CMakeFiles/seed.dir/rule
+.PHONY : lib/CMakeFiles/seed.dir/rule
 
 # Convenience name for target.
-seed: include/CMakeFiles/seed.dir/rule
+seed: lib/CMakeFiles/seed.dir/rule
 
 .PHONY : seed
 
 # clean rule for target.
-include/CMakeFiles/seed.dir/clean:
-	$(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/clean
-.PHONY : include/CMakeFiles/seed.dir/clean
+lib/CMakeFiles/seed.dir/clean:
+	$(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/clean
+.PHONY : lib/CMakeFiles/seed.dir/clean
 
 #=============================================================================
-# Target rules for target include/CMakeFiles/matrix.dir
+# Target rules for target lib/CMakeFiles/matrix.dir
 
 # All Build rule for target.
-include/CMakeFiles/matrix.dir/all:
-	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/depend
-	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/build
+lib/CMakeFiles/matrix.dir/all:
+	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/depend
+	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=7,8 "Built target matrix"
-.PHONY : include/CMakeFiles/matrix.dir/all
+.PHONY : lib/CMakeFiles/matrix.dir/all
 
 # Build rule for subdir invocation for target.
-include/CMakeFiles/matrix.dir/rule: cmake_check_build_system
+lib/CMakeFiles/matrix.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 include/CMakeFiles/matrix.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
-.PHONY : include/CMakeFiles/matrix.dir/rule
+.PHONY : lib/CMakeFiles/matrix.dir/rule
 
 # Convenience name for target.
-matrix: include/CMakeFiles/matrix.dir/rule
+matrix: lib/CMakeFiles/matrix.dir/rule
 
 .PHONY : matrix
 
 # clean rule for target.
-include/CMakeFiles/matrix.dir/clean:
-	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/clean
-.PHONY : include/CMakeFiles/matrix.dir/clean
+lib/CMakeFiles/matrix.dir/clean:
+	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/clean
+.PHONY : lib/CMakeFiles/matrix.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

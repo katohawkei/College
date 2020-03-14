@@ -10,14 +10,13 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../include/matrix"
-  "../include/seed"
+  "../include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Dev/c_cpp_projects/College/build/include/CMakeFiles/matrix.dir/DependInfo.cmake"
-  "C:/Dev/c_cpp_projects/College/build/include/CMakeFiles/seed.dir/DependInfo.cmake"
+  "C:/Dev/c_cpp_projects/College/build/lib/CMakeFiles/matrix.dir/DependInfo.cmake"
+  "C:/Dev/c_cpp_projects/College/build/lib/CMakeFiles/seed.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -96,7 +96,7 @@ CMakeFiles/3.dir/src/term2/l9/3.c.s: cmake_force
 
 3.exe: CMakeFiles/3.dir/src/term2/l9/3.c.obj
 3.exe: CMakeFiles/3.dir/build.make
-3.exe: include/libmatrix.a
+3.exe: lib/libmatrix.a
 3.exe: CMakeFiles/3.dir/linklibs.rsp
 3.exe: CMakeFiles/3.dir/objects1.rsp
 3.exe: CMakeFiles/3.dir/link.txt

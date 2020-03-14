@@ -175,7 +175,7 @@ seed: cmake_check_build_system
 
 # fast build rule for target.
 seed/fast:
-	$(MAKE) -f include\CMakeFiles\seed.dir\build.make include/CMakeFiles/seed.dir/build
+	$(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/build
 .PHONY : seed/fast
 
 #=============================================================================
@@ -188,7 +188,7 @@ matrix: cmake_check_build_system
 
 # fast build rule for target.
 matrix/fast:
-	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/build
+	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
 .PHONY : matrix/fast
 
 src/term2/l9/2.obj: src/term2/l9/2.c.obj

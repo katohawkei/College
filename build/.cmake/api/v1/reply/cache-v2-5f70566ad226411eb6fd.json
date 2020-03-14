@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Dev/c_cpp_projects/College/build/include"
+			"value" : "C:/Dev/c_cpp_projects/College/build/lib"
 		},
 		{
 			"name" : "matrix_SOURCE_DIR",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Dev/c_cpp_projects/College/include"
+			"value" : "C:/Dev/c_cpp_projects/College/lib"
 		}
 	],
 	"kind" : "cache",

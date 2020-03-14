@@ -248,10 +248,10 @@ include_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build/include
 include_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College/include
 
 //Value Computed by CMake
-matrix_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build/include
+matrix_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build/lib
 
 //Value Computed by CMake
-matrix_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College/include
+matrix_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College/lib
 
 
 ########################

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/seed.h
+
+C:/Dev/c_cpp_projects/College/lib/seed.c
+stdlib.h
+-
+stdio.h
+-
+seed.h
+C:/Dev/c_cpp_projects/College/lib/seed.h
+

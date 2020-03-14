@@ -12,7 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.0-rc2/CMakeSystem.cmake"
-  "../include/CMakeLists.txt"
+  "../lib/CMakeLists.txt"
   "C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -47,7 +47,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -55,6 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/2.dir/DependInfo.cmake"
   "CMakeFiles/3.dir/DependInfo.cmake"
   "CMakeFiles/4.dir/DependInfo.cmake"
-  "include/CMakeFiles/seed.dir/DependInfo.cmake"
-  "include/CMakeFiles/matrix.dir/DependInfo.cmake"
+  "lib/CMakeFiles/seed.dir/DependInfo.cmake"
+  "lib/CMakeFiles/matrix.dir/DependInfo.cmake"
   )

@@ -29,25 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 9,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 5,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -65,11 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Dev/c_cpp_projects/College/include/matrix"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Dev/c_cpp_projects/College/include/seed"
+					"path" : "C:/Dev/c_cpp_projects/College/include"
 				}
 			],
 			"language" : "C",
@@ -83,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "matrix::@14b3099d61bfdbeae804"
+			"id" : "matrix::@306ed2d68c6501e8728f"
 		}
 	],
 	"id" : "2::@6890427a1f51a3e7e1df",
@@ -101,7 +91,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "include\\libmatrix.a",
+				"fragment" : "lib\\libmatrix.a",
 				"role" : "libraries"
 			},
 			{

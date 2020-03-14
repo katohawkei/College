@@ -24,14 +24,14 @@
 					]
 				},
 				{
-					"build" : "include",
+					"build" : "lib",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.17.0"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "include",
+					"source" : "lib",
 					"targetIndexes" : 
 					[
 						3,
@@ -78,35 +78,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2-Debug-94fab9ef5c411e5f122f.json",
+					"jsonFile" : "target-2-Debug-569fa9f095f7ac098188.json",
 					"name" : "2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-3-Debug-b02c1613d92bafe2edf5.json",
+					"jsonFile" : "target-3-Debug-c15a03055a9553d0bcba.json",
 					"name" : "3",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-4-Debug-6abd7b7b63cbb001e2df.json",
+					"jsonFile" : "target-4-Debug-7ad084990f399005345a.json",
 					"name" : "4",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
-					"id" : "matrix::@14b3099d61bfdbeae804",
-					"jsonFile" : "target-matrix-Debug-dcfea89a9647a6b75f1c.json",
+					"id" : "matrix::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-matrix-Debug-192e2c1f803edcc85db3.json",
 					"name" : "matrix",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
-					"id" : "seed::@14b3099d61bfdbeae804",
-					"jsonFile" : "target-seed-Debug-f2a98a42af2ce117fea1.json",
+					"id" : "seed::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-seed-Debug-49c3fc21a5c63268cf5f.json",
 					"name" : "seed",
 					"projectIndex" : 1
 				}

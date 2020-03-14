@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
     if (argc != 3)
     {
-        printf("usage: 2 <n of matrix> <m of matrix>\n");
+        printf("usage: 4 <n of matrix> <m of matrix>\n");
         exit(1);
     }
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../include/matrix/matrix.h
+../include/matrix.h
 stddef.h
 -
 

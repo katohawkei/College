@@ -96,7 +96,7 @@ CMakeFiles/2.dir/src/term2/l9/2.c.s: cmake_force
 
 2.exe: CMakeFiles/2.dir/src/term2/l9/2.c.obj
 2.exe: CMakeFiles/2.dir/build.make
-2.exe: include/libmatrix.a
+2.exe: lib/libmatrix.a
 2.exe: CMakeFiles/2.dir/linklibs.rsp
 2.exe: CMakeFiles/2.dir/objects1.rsp
 2.exe: CMakeFiles/2.dir/link.txt

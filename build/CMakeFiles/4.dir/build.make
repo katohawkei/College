@@ -96,8 +96,8 @@ CMakeFiles/4.dir/src/term2/l9/4.c.s: cmake_force
 
 4.exe: CMakeFiles/4.dir/src/term2/l9/4.c.obj
 4.exe: CMakeFiles/4.dir/build.make
-4.exe: include/libmatrix.a
-4.exe: include/libseed.a
+4.exe: lib/libmatrix.a
+4.exe: lib/libseed.a
 4.exe: CMakeFiles/4.dir/linklibs.rsp
 4.exe: CMakeFiles/4.dir/objects1.rsp
 4.exe: CMakeFiles/4.dir/link.txt

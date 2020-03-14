@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/matrix/matrix.h
+../include/matrix.h
 stddef.h
 -
 
-../include/seed/seed.h
+../include/seed.h
 
 C:/Dev/c_cpp_projects/College/src/term2/l9/4.c
 stdio.h
