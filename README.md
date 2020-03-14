@@ -7,6 +7,8 @@
   * ***14.03.2020***     Added l9 (2.c and 3.c)
 
 ### L9 
+  #### [matrix.c](https://github.com/katohawkei/College/blob/master/include/matrix/matrix.c)
+
   #### [source code 2.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/2.c)
   ![l9_2](docs/img/l9/2.gif)
 
