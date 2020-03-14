@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "4.exe"
   "4.exe.manifest"
   "4.pdb"
-  "CMakeFiles/4.dir/include/matrix/matrix.c.obj"
   "CMakeFiles/4.dir/src/term2/l8/4.c.obj"
   "lib4.dll.a"
 )

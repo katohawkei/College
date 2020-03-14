@@ -241,6 +241,18 @@ College_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build
 //Value Computed by CMake
 College_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College
 
+//Value Computed by CMake
+include_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build/include
+
+//Value Computed by CMake
+include_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College/include
+
+//Value Computed by CMake
+matrix_BINARY_DIR:STATIC=C:/Dev/c_cpp_projects/College/build/include
+
+//Value Computed by CMake
+matrix_SOURCE_DIR:STATIC=C:/Dev/c_cpp_projects/College/include
+
 
 ########################
 # INTERNAL cache entries
@@ -348,7 +360,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libseed.a  CMakeFiles/seed.dir/seed/seed.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libseed.a

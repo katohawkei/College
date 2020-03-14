@@ -127,19 +127,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1
-
-# Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 1
-.PHONY : 1
-
-# fast build rule for target.
-1/fast:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
-
-#=============================================================================
 # Target rules for targets named 2
 
 # Build rule for target.
@@ -166,161 +153,71 @@ depend:
 .PHONY : 3/fast
 
 #=============================================================================
-# Target rules for targets named 4
+# Target rules for targets named matrix
 
 # Build rule for target.
-4 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 4
-.PHONY : 4
+matrix: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 matrix
+.PHONY : matrix
 
 # fast build rule for target.
-4/fast:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/build
-.PHONY : 4/fast
+matrix/fast:
+	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/build
+.PHONY : matrix/fast
 
-include/matrix/matrix.obj: include/matrix/matrix.c.obj
+src/term2/l9/2.obj: src/term2/l9/2.c.obj
 
-.PHONY : include/matrix/matrix.obj
-
-# target to build an object file
-include/matrix/matrix.c.obj:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/include/matrix/matrix.c.obj
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/include/matrix/matrix.c.obj
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/include/matrix/matrix.c.obj
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/include/matrix/matrix.c.obj
-.PHONY : include/matrix/matrix.c.obj
-
-include/matrix/matrix.i: include/matrix/matrix.c.i
-
-.PHONY : include/matrix/matrix.i
-
-# target to preprocess a source file
-include/matrix/matrix.c.i:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/include/matrix/matrix.c.i
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/include/matrix/matrix.c.i
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/include/matrix/matrix.c.i
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/include/matrix/matrix.c.i
-.PHONY : include/matrix/matrix.c.i
-
-include/matrix/matrix.s: include/matrix/matrix.c.s
-
-.PHONY : include/matrix/matrix.s
-
-# target to generate assembly for a file
-include/matrix/matrix.c.s:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/include/matrix/matrix.c.s
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/include/matrix/matrix.c.s
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/include/matrix/matrix.c.s
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/include/matrix/matrix.c.s
-.PHONY : include/matrix/matrix.c.s
-
-src/term2/l8/1.obj: src/term2/l8/1.c.obj
-
-.PHONY : src/term2/l8/1.obj
+.PHONY : src/term2/l9/2.obj
 
 # target to build an object file
-src/term2/l8/1.c.obj:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l8/1.c.obj
-.PHONY : src/term2/l8/1.c.obj
+src/term2/l9/2.c.obj:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.obj
+.PHONY : src/term2/l9/2.c.obj
 
-src/term2/l8/1.i: src/term2/l8/1.c.i
+src/term2/l9/2.i: src/term2/l9/2.c.i
 
-.PHONY : src/term2/l8/1.i
+.PHONY : src/term2/l9/2.i
 
 # target to preprocess a source file
-src/term2/l8/1.c.i:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l8/1.c.i
-.PHONY : src/term2/l8/1.c.i
+src/term2/l9/2.c.i:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.i
+.PHONY : src/term2/l9/2.c.i
 
-src/term2/l8/1.s: src/term2/l8/1.c.s
+src/term2/l9/2.s: src/term2/l9/2.c.s
 
-.PHONY : src/term2/l8/1.s
+.PHONY : src/term2/l9/2.s
 
 # target to generate assembly for a file
-src/term2/l8/1.c.s:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l8/1.c.s
-.PHONY : src/term2/l8/1.c.s
+src/term2/l9/2.c.s:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.s
+.PHONY : src/term2/l9/2.c.s
 
-src/term2/l8/2.obj: src/term2/l8/2.c.obj
+src/term2/l9/3.obj: src/term2/l9/3.c.obj
 
-.PHONY : src/term2/l8/2.obj
+.PHONY : src/term2/l9/3.obj
 
 # target to build an object file
-src/term2/l8/2.c.obj:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l8/2.c.obj
-.PHONY : src/term2/l8/2.c.obj
+src/term2/l9/3.c.obj:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.obj
+.PHONY : src/term2/l9/3.c.obj
 
-src/term2/l8/2.i: src/term2/l8/2.c.i
+src/term2/l9/3.i: src/term2/l9/3.c.i
 
-.PHONY : src/term2/l8/2.i
-
-# target to preprocess a source file
-src/term2/l8/2.c.i:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l8/2.c.i
-.PHONY : src/term2/l8/2.c.i
-
-src/term2/l8/2.s: src/term2/l8/2.c.s
-
-.PHONY : src/term2/l8/2.s
-
-# target to generate assembly for a file
-src/term2/l8/2.c.s:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l8/2.c.s
-.PHONY : src/term2/l8/2.c.s
-
-src/term2/l8/3.obj: src/term2/l8/3.c.obj
-
-.PHONY : src/term2/l8/3.obj
-
-# target to build an object file
-src/term2/l8/3.c.obj:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l8/3.c.obj
-.PHONY : src/term2/l8/3.c.obj
-
-src/term2/l8/3.i: src/term2/l8/3.c.i
-
-.PHONY : src/term2/l8/3.i
+.PHONY : src/term2/l9/3.i
 
 # target to preprocess a source file
-src/term2/l8/3.c.i:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l8/3.c.i
-.PHONY : src/term2/l8/3.c.i
+src/term2/l9/3.c.i:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.i
+.PHONY : src/term2/l9/3.c.i
 
-src/term2/l8/3.s: src/term2/l8/3.c.s
+src/term2/l9/3.s: src/term2/l9/3.c.s
 
-.PHONY : src/term2/l8/3.s
-
-# target to generate assembly for a file
-src/term2/l8/3.c.s:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l8/3.c.s
-.PHONY : src/term2/l8/3.c.s
-
-src/term2/l8/4.obj: src/term2/l8/4.c.obj
-
-.PHONY : src/term2/l8/4.obj
-
-# target to build an object file
-src/term2/l8/4.c.obj:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l8/4.c.obj
-.PHONY : src/term2/l8/4.c.obj
-
-src/term2/l8/4.i: src/term2/l8/4.c.i
-
-.PHONY : src/term2/l8/4.i
-
-# target to preprocess a source file
-src/term2/l8/4.c.i:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l8/4.c.i
-.PHONY : src/term2/l8/4.c.i
-
-src/term2/l8/4.s: src/term2/l8/4.c.s
-
-.PHONY : src/term2/l8/4.s
+.PHONY : src/term2/l9/3.s
 
 # target to generate assembly for a file
-src/term2/l8/4.c.s:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l8/4.c.s
-.PHONY : src/term2/l8/4.c.s
+src/term2/l9/3.c.s:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.s
+.PHONY : src/term2/l9/3.c.s
 
 # Help Target
 help:
@@ -330,25 +227,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 1
 	@echo ... 2
 	@echo ... 3
-	@echo ... 4
-	@echo ... include/matrix/matrix.obj
-	@echo ... include/matrix/matrix.i
-	@echo ... include/matrix/matrix.s
-	@echo ... src/term2/l8/1.obj
-	@echo ... src/term2/l8/1.i
-	@echo ... src/term2/l8/1.s
-	@echo ... src/term2/l8/2.obj
-	@echo ... src/term2/l8/2.i
-	@echo ... src/term2/l8/2.s
-	@echo ... src/term2/l8/3.obj
-	@echo ... src/term2/l8/3.i
-	@echo ... src/term2/l8/3.s
-	@echo ... src/term2/l8/4.obj
-	@echo ... src/term2/l8/4.i
-	@echo ... src/term2/l8/4.s
+	@echo ... matrix
+	@echo ... src/term2/l9/2.obj
+	@echo ... src/term2/l9/2.i
+	@echo ... src/term2/l9/2.s
+	@echo ... src/term2/l9/3.obj
+	@echo ... src/term2/l9/3.i
+	@echo ... src/term2/l9/3.s
 .PHONY : help
 
 

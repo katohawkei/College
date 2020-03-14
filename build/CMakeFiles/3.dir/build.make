@@ -73,47 +73,34 @@ include CMakeFiles/3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3.dir/flags.make
 
-CMakeFiles/3.dir/src/term2/l8/3.c.obj: CMakeFiles/3.dir/flags.make
-CMakeFiles/3.dir/src/term2/l8/3.c.obj: ../src/term2/l8/3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/3.dir/src/term2/l8/3.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\3.dir\src\term2\l8\3.c.obj   -c C:\Dev\c_cpp_projects\College\src\term2\l8\3.c
+CMakeFiles/3.dir/src/term2/l9/3.c.obj: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/src/term2/l9/3.c.obj: CMakeFiles/3.dir/includes_C.rsp
+CMakeFiles/3.dir/src/term2/l9/3.c.obj: ../src/term2/l9/3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/3.dir/src/term2/l9/3.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\3.dir\src\term2\l9\3.c.obj   -c C:\Dev\c_cpp_projects\College\src\term2\l9\3.c
 
-CMakeFiles/3.dir/src/term2/l8/3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3.dir/src/term2/l8/3.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Dev\c_cpp_projects\College\src\term2\l8\3.c > CMakeFiles\3.dir\src\term2\l8\3.c.i
+CMakeFiles/3.dir/src/term2/l9/3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3.dir/src/term2/l9/3.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Dev\c_cpp_projects\College\src\term2\l9\3.c > CMakeFiles\3.dir\src\term2\l9\3.c.i
 
-CMakeFiles/3.dir/src/term2/l8/3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3.dir/src/term2/l8/3.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Dev\c_cpp_projects\College\src\term2\l8\3.c -o CMakeFiles\3.dir\src\term2\l8\3.c.s
-
-CMakeFiles/3.dir/include/matrix/matrix.c.obj: CMakeFiles/3.dir/flags.make
-CMakeFiles/3.dir/include/matrix/matrix.c.obj: ../include/matrix/matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/3.dir/include/matrix/matrix.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\3.dir\include\matrix\matrix.c.obj   -c C:\Dev\c_cpp_projects\College\include\matrix\matrix.c
-
-CMakeFiles/3.dir/include/matrix/matrix.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/3.dir/include/matrix/matrix.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Dev\c_cpp_projects\College\include\matrix\matrix.c > CMakeFiles\3.dir\include\matrix\matrix.c.i
-
-CMakeFiles/3.dir/include/matrix/matrix.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3.dir/include/matrix/matrix.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Dev\c_cpp_projects\College\include\matrix\matrix.c -o CMakeFiles\3.dir\include\matrix\matrix.c.s
+CMakeFiles/3.dir/src/term2/l9/3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/3.dir/src/term2/l9/3.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Dev\c_cpp_projects\College\src\term2\l9\3.c -o CMakeFiles\3.dir\src\term2\l9\3.c.s
 
 # Object files for target 3
 3_OBJECTS = \
-"CMakeFiles/3.dir/src/term2/l8/3.c.obj" \
-"CMakeFiles/3.dir/include/matrix/matrix.c.obj"
+"CMakeFiles/3.dir/src/term2/l9/3.c.obj"
 
 # External object files for target 3
 3_EXTERNAL_OBJECTS =
 
-3.exe: CMakeFiles/3.dir/src/term2/l8/3.c.obj
-3.exe: CMakeFiles/3.dir/include/matrix/matrix.c.obj
+3.exe: CMakeFiles/3.dir/src/term2/l9/3.c.obj
 3.exe: CMakeFiles/3.dir/build.make
+3.exe: include/libmatrix.a
 3.exe: CMakeFiles/3.dir/linklibs.rsp
 3.exe: CMakeFiles/3.dir/objects1.rsp
 3.exe: CMakeFiles/3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable 3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -69,66 +69,55 @@ CMAKE_BINARY_DIR = C:\Dev\c_cpp_projects\College\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/1.dir/all
 all: CMakeFiles/2.dir/all
 all: CMakeFiles/3.dir/all
-all: CMakeFiles/4.dir/all
+all: include/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: include/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/1.dir/clean
 clean: CMakeFiles/2.dir/clean
 clean: CMakeFiles/3.dir/clean
-clean: CMakeFiles/4.dir/clean
+clean: include/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1.dir
+# Directory level rules for directory include
 
-# All Build rule for target.
-CMakeFiles/1.dir/all:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/depend
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=1,2,3 "Built target 1"
-.PHONY : CMakeFiles/1.dir/all
+# Recursive "all" directory target.
+include/all: include/CMakeFiles/matrix.dir/all
 
-# Build rule for subdir invocation for target.
-CMakeFiles/1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
-.PHONY : CMakeFiles/1.dir/rule
+.PHONY : include/all
 
-# Convenience name for target.
-1 : CMakeFiles/1.dir/rule
+# Recursive "preinstall" directory target.
+include/preinstall:
 
-.PHONY : 1
+.PHONY : include/preinstall
 
-# clean rule for target.
-CMakeFiles/1.dir/clean:
-	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/clean
-.PHONY : CMakeFiles/1.dir/clean
+# Recursive "clean" directory target.
+include/clean: include/CMakeFiles/matrix.dir/clean
+
+.PHONY : include/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/2.dir
 
 # All Build rule for target.
-CMakeFiles/2.dir/all:
+CMakeFiles/2.dir/all: include/CMakeFiles/matrix.dir/all
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/depend
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=4,5,6 "Built target 2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=1,2 "Built target 2"
 .PHONY : CMakeFiles/2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/2.dir/rule
@@ -147,15 +136,15 @@ CMakeFiles/2.dir/clean:
 # Target rules for target CMakeFiles/3.dir
 
 # All Build rule for target.
-CMakeFiles/3.dir/all:
+CMakeFiles/3.dir/all: include/CMakeFiles/matrix.dir/all
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/depend
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=7,8,9 "Built target 3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=3,4 "Built target 3"
 .PHONY : CMakeFiles/3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/3.dir/rule
@@ -171,31 +160,31 @@ CMakeFiles/3.dir/clean:
 .PHONY : CMakeFiles/3.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/4.dir
+# Target rules for target include/CMakeFiles/matrix.dir
 
 # All Build rule for target.
-CMakeFiles/4.dir/all:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/depend
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=10,11,12 "Built target 4"
-.PHONY : CMakeFiles/4.dir/all
+include/CMakeFiles/matrix.dir/all:
+	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/depend
+	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Dev\c_cpp_projects\College\build\CMakeFiles --progress-num=5,6 "Built target matrix"
+.PHONY : include/CMakeFiles/matrix.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/4.dir/all
+include/CMakeFiles/matrix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 include/CMakeFiles/matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
-.PHONY : CMakeFiles/4.dir/rule
+.PHONY : include/CMakeFiles/matrix.dir/rule
 
 # Convenience name for target.
-4 : CMakeFiles/4.dir/rule
+matrix: include/CMakeFiles/matrix.dir/rule
 
-.PHONY : 4
+.PHONY : matrix
 
 # clean rule for target.
-CMakeFiles/4.dir/clean:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/clean
-.PHONY : CMakeFiles/4.dir/clean
+include/CMakeFiles/matrix.dir/clean:
+	$(MAKE) -f include\CMakeFiles\matrix.dir\build.make include/CMakeFiles/matrix.dir/clean
+.PHONY : include/CMakeFiles/matrix.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
