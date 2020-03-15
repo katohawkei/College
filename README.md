@@ -13,6 +13,7 @@
   
   * ***28.02.2020*** 
     > Added l6, l7, l8
+    
     > Updated cmake for **Windows 10**
   
   * ***14.03.2020***
