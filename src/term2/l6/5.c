@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "../../../include/seed/seed.h"
+#include "array.h"
 
 #define MIN -100
 #define MAX 100

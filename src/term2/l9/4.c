@@ -3,7 +3,7 @@
 #include <time.h>
 
 #include "matrix.h"
-#include "seed.h"
+#include "array.h"
 
 #define MIN -10
 #define MAX 10

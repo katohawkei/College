@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// #include "../../../include/matrix/matrix.h"
 #include "matrix.h"
 
 #define MIN -10

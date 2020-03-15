@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/array.h
+
+C:/Dev/c_cpp_projects/College/lib/array.c
+stdlib.h
+-
+stdio.h
+-
+array.h
+C:/Dev/c_cpp_projects/College/lib/array.h
+

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../../include/seed/seed.h"
+#include "array.h"
 
 #define MIN -50
 #define MAX 50

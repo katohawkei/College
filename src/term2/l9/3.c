@@ -39,7 +39,7 @@ void solution(size_t n)
     fillMatrix(n, n, matrix, (const int []){MIN, MAX});
     printMatrix(n, n, matrix);
 
-    printf("sum = %d\n", productMaxMin(n, matrix));
+    printf("min*max = %d\n", productMaxMin(n, matrix));
 
     freeMatrix(n, matrix);
 

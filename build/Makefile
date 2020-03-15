@@ -166,19 +166,6 @@ depend:
 .PHONY : 4/fast
 
 #=============================================================================
-# Target rules for targets named seed
-
-# Build rule for target.
-seed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 seed
-.PHONY : seed
-
-# fast build rule for target.
-seed/fast:
-	$(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/build
-.PHONY : seed/fast
-
-#=============================================================================
 # Target rules for targets named matrix
 
 # Build rule for target.
@@ -190,6 +177,19 @@ matrix: cmake_check_build_system
 matrix/fast:
 	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
 .PHONY : matrix/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/build
+.PHONY : array/fast
 
 src/term2/l9/2.obj: src/term2/l9/2.c.obj
 
@@ -283,8 +283,8 @@ help:
 	@echo ... 2
 	@echo ... 3
 	@echo ... 4
+	@echo ... array
 	@echo ... matrix
-	@echo ... seed
 	@echo ... src/term2/l9/2.obj
 	@echo ... src/term2/l9/2.i
 	@echo ... src/term2/l9/2.s

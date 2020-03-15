@@ -5,7 +5,7 @@
 // my lib od funcs
 // for work with array
 // Like fill and print
-#include "../../../include/seed/seed.h"
+#include "array.h"
 
 // Random range for fill
 #define MIN 1

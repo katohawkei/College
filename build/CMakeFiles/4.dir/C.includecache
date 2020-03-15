@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
+../include/array.h
+
 ../include/matrix.h
 stddef.h
 -
-
-../include/seed.h
 
 C:/Dev/c_cpp_projects/College/src/term2/l9/4.c
 stdio.h
@@ -21,6 +21,6 @@ time.h
 -
 matrix.h
 C:/Dev/c_cpp_projects/College/src/term2/l9/matrix.h
-seed.h
-C:/Dev/c_cpp_projects/College/src/term2/l9/seed.h
+array.h
+C:/Dev/c_cpp_projects/College/src/term2/l9/array.h
 

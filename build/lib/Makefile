@@ -127,21 +127,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-lib/CMakeFiles/seed.dir/rule:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/seed.dir/rule
-.PHONY : lib/CMakeFiles/seed.dir/rule
-
-# Convenience name for target.
-seed: lib/CMakeFiles/seed.dir/rule
-
-.PHONY : seed
-
-# fast build rule for target.
-seed/fast:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/build
-.PHONY : seed/fast
-
-# Convenience name for target.
 lib/CMakeFiles/matrix.dir/rule:
 	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/matrix.dir/rule
 .PHONY : lib/CMakeFiles/matrix.dir/rule
@@ -155,6 +140,48 @@ matrix: lib/CMakeFiles/matrix.dir/rule
 matrix/fast:
 	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
 .PHONY : matrix/fast
+
+# Convenience name for target.
+lib/CMakeFiles/array.dir/rule:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/array.dir/rule
+.PHONY : lib/CMakeFiles/array.dir/rule
+
+# Convenience name for target.
+array: lib/CMakeFiles/array.dir/rule
+
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+array.obj: array.c.obj
+
+.PHONY : array.obj
+
+# target to build an object file
+array.c.obj:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.obj
+.PHONY : array.c.obj
+
+array.i: array.c.i
+
+.PHONY : array.i
+
+# target to preprocess a source file
+array.c.i:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.i
+.PHONY : array.c.i
+
+array.s: array.c.s
+
+.PHONY : array.s
+
+# target to generate assembly for a file
+array.c.s:
+	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.s
+.PHONY : array.c.s
 
 matrix.obj: matrix.c.obj
 
@@ -183,33 +210,6 @@ matrix.c.s:
 	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/matrix.c.s
 .PHONY : matrix.c.s
 
-seed.obj: seed.c.obj
-
-.PHONY : seed.obj
-
-# target to build an object file
-seed.c.obj:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/seed.c.obj
-.PHONY : seed.c.obj
-
-seed.i: seed.c.i
-
-.PHONY : seed.i
-
-# target to preprocess a source file
-seed.c.i:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/seed.c.i
-.PHONY : seed.c.i
-
-seed.s: seed.c.s
-
-.PHONY : seed.s
-
-# target to generate assembly for a file
-seed.c.s:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\seed.dir\build.make lib/CMakeFiles/seed.dir/seed.c.s
-.PHONY : seed.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,14 +218,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... array
 	@echo ... matrix
-	@echo ... seed
+	@echo ... array.obj
+	@echo ... array.i
+	@echo ... array.s
 	@echo ... matrix.obj
 	@echo ... matrix.i
 	@echo ... matrix.s
-	@echo ... seed.obj
-	@echo ... seed.i
-	@echo ... seed.s
 .PHONY : help
 
 
