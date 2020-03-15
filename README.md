@@ -13,12 +13,11 @@
   
   * ***28.02.2020*** 
     > Added l6, l7, l8
-  
     > Updated cmake for **Windows 10**
   
   * ***14.03.2020***
     > Updated cmake for using my lib include
   
-  > Added l9 (2.c, 3.c, 4.c)
+    > Added l9 (2.c, 3.c, 4.c)
   
-  > Reformated repository: splited up "*.h" and "*.c" files
+    > Reformated repository: splited up "*.h" and "*.c" files
