@@ -21,4 +21,4 @@
   
     > Added l9 (2.c, 3.c, 4.c)
   
-    > Reformated repository: splited up "*.h" and "*.c" files
+    > Reformated repository: splited up "\*.h" and "*.c" files
