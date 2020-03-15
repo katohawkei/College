@@ -4,8 +4,11 @@
 
 **Headers:**
   * [array.h](https://github.com/katohawkei/College/blob/master/include/array.h)
+    
     [source code](https://github.com/katohawkei/College/blob/master/lib/array.c)
+  
   * [matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix.h)
+  
     [source code](https://github.com/katohawkei/College/blob/master/lib/matrix.c)
   
   
