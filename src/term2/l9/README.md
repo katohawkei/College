@@ -1,6 +1,13 @@
 # [Home page](https://github.com/katohawkei/College)
 
 ### L9
+
+**Headers:**
+  * [array.h](https://github.com/katohawkei/College/blob/master/include/array.h)
+    [source code](https://github.com/katohawkei/College/blob/master/lib/array.c)
+  * [matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix.h)
+    [source code](https://github.com/katohawkei/College/blob/master/lib/matrix.c)
+  
   
  **Source code:**
   * [1.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/1.c)
@@ -9,10 +16,6 @@
   * [4.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/4.c)
   
  **Executed code:**
-  
-  * 1
-    
-  ![l9_1](../../../docs/img/l9/1.gif)
   
   * 2
     
