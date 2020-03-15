@@ -2,6 +2,7 @@
     "files.associations": {
         "seed.h": "c",
         "time.h": "c",
-        "matrix.h": "c"
+        "matrix.h": "c",
+        "array.h": "c"
     },
 }
