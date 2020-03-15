@@ -7,7 +7,11 @@
   * [4.c](https://github.com/katohawkei/College/blob/master/src/term2/l9/4.c)
   
   **Executed code:**
-      * ![l9_1](../../../docs/img/l9/1.gif)
-      * ![l9_2](../../../docs/img/l9/2.gif)
-      * ![l9_3](../../../docs/img/l9/3.gif)
-      * ![l9_4](../../../docs/img/l9/4.gif)
+      * 1
+      ![l9_1](../../../docs/img/l9/1.gif)
+      * 2
+      ![l9_2](../../../docs/img/l9/2.gif)
+      * 3
+      ![l9_3](../../../docs/img/l9/3.gif)
+      * 4
+      ![l9_4](../../../docs/img/l9/4.gif)
