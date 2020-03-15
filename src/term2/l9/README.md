@@ -1,6 +1,4 @@
-# [Home page](https://github.com/katohawkei/College)
-
-### L9
+## L9
 
 **Headers:**
   * [array.h](https://github.com/katohawkei/College/blob/master/include/array.h)
