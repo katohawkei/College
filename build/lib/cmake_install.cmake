@@ -1,4 +1,4 @@
-# Install script for directory: C:/Dev/c_cpp_projects/College/lib
+# Install script for directory: D:/Dev/projects/C/College/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

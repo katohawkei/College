@@ -64,10 +64,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Dev\c_cpp_projects\College
+CMAKE_SOURCE_DIR = D:\Dev\projects\C\College
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Dev\c_cpp_projects\College\build
+CMAKE_BINARY_DIR = D:\Dev\projects\C\College\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,9 +96,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles C:\Dev\c_cpp_projects\College\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles D:\Dev\projects\C\College\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -125,6 +125,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
 
 #=============================================================================
 # Target rules for targets named 2
@@ -166,19 +179,6 @@ depend:
 .PHONY : 4/fast
 
 #=============================================================================
-# Target rules for targets named matrix
-
-# Build rule for target.
-matrix: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 matrix
-.PHONY : matrix
-
-# fast build rule for target.
-matrix/fast:
-	$(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
-.PHONY : matrix/fast
-
-#=============================================================================
 # Target rules for targets named array
 
 # Build rule for target.
@@ -191,86 +191,113 @@ array/fast:
 	$(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/build
 .PHONY : array/fast
 
-src/term2/l9/2.obj: src/term2/l9/2.c.obj
+src/term2/l10/1.obj: src/term2/l10/1.c.obj
 
-.PHONY : src/term2/l9/2.obj
-
-# target to build an object file
-src/term2/l9/2.c.obj:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.obj
-.PHONY : src/term2/l9/2.c.obj
-
-src/term2/l9/2.i: src/term2/l9/2.c.i
-
-.PHONY : src/term2/l9/2.i
-
-# target to preprocess a source file
-src/term2/l9/2.c.i:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.i
-.PHONY : src/term2/l9/2.c.i
-
-src/term2/l9/2.s: src/term2/l9/2.c.s
-
-.PHONY : src/term2/l9/2.s
-
-# target to generate assembly for a file
-src/term2/l9/2.c.s:
-	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l9/2.c.s
-.PHONY : src/term2/l9/2.c.s
-
-src/term2/l9/3.obj: src/term2/l9/3.c.obj
-
-.PHONY : src/term2/l9/3.obj
+.PHONY : src/term2/l10/1.obj
 
 # target to build an object file
-src/term2/l9/3.c.obj:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.obj
-.PHONY : src/term2/l9/3.c.obj
+src/term2/l10/1.c.obj:
+	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l10/1.c.obj
+.PHONY : src/term2/l10/1.c.obj
 
-src/term2/l9/3.i: src/term2/l9/3.c.i
+src/term2/l10/1.i: src/term2/l10/1.c.i
 
-.PHONY : src/term2/l9/3.i
+.PHONY : src/term2/l10/1.i
 
 # target to preprocess a source file
-src/term2/l9/3.c.i:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.i
-.PHONY : src/term2/l9/3.c.i
+src/term2/l10/1.c.i:
+	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l10/1.c.i
+.PHONY : src/term2/l10/1.c.i
 
-src/term2/l9/3.s: src/term2/l9/3.c.s
+src/term2/l10/1.s: src/term2/l10/1.c.s
 
-.PHONY : src/term2/l9/3.s
+.PHONY : src/term2/l10/1.s
 
 # target to generate assembly for a file
-src/term2/l9/3.c.s:
-	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l9/3.c.s
-.PHONY : src/term2/l9/3.c.s
+src/term2/l10/1.c.s:
+	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/src/term2/l10/1.c.s
+.PHONY : src/term2/l10/1.c.s
 
-src/term2/l9/4.obj: src/term2/l9/4.c.obj
+src/term2/l10/2.obj: src/term2/l10/2.c.obj
 
-.PHONY : src/term2/l9/4.obj
+.PHONY : src/term2/l10/2.obj
 
 # target to build an object file
-src/term2/l9/4.c.obj:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l9/4.c.obj
-.PHONY : src/term2/l9/4.c.obj
+src/term2/l10/2.c.obj:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l10/2.c.obj
+.PHONY : src/term2/l10/2.c.obj
 
-src/term2/l9/4.i: src/term2/l9/4.c.i
+src/term2/l10/2.i: src/term2/l10/2.c.i
 
-.PHONY : src/term2/l9/4.i
+.PHONY : src/term2/l10/2.i
 
 # target to preprocess a source file
-src/term2/l9/4.c.i:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l9/4.c.i
-.PHONY : src/term2/l9/4.c.i
+src/term2/l10/2.c.i:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l10/2.c.i
+.PHONY : src/term2/l10/2.c.i
 
-src/term2/l9/4.s: src/term2/l9/4.c.s
+src/term2/l10/2.s: src/term2/l10/2.c.s
 
-.PHONY : src/term2/l9/4.s
+.PHONY : src/term2/l10/2.s
 
 # target to generate assembly for a file
-src/term2/l9/4.c.s:
-	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l9/4.c.s
-.PHONY : src/term2/l9/4.c.s
+src/term2/l10/2.c.s:
+	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/src/term2/l10/2.c.s
+.PHONY : src/term2/l10/2.c.s
+
+src/term2/l10/3.obj: src/term2/l10/3.c.obj
+
+.PHONY : src/term2/l10/3.obj
+
+# target to build an object file
+src/term2/l10/3.c.obj:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l10/3.c.obj
+.PHONY : src/term2/l10/3.c.obj
+
+src/term2/l10/3.i: src/term2/l10/3.c.i
+
+.PHONY : src/term2/l10/3.i
+
+# target to preprocess a source file
+src/term2/l10/3.c.i:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l10/3.c.i
+.PHONY : src/term2/l10/3.c.i
+
+src/term2/l10/3.s: src/term2/l10/3.c.s
+
+.PHONY : src/term2/l10/3.s
+
+# target to generate assembly for a file
+src/term2/l10/3.c.s:
+	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/src/term2/l10/3.c.s
+.PHONY : src/term2/l10/3.c.s
+
+src/term2/l10/4.obj: src/term2/l10/4.c.obj
+
+.PHONY : src/term2/l10/4.obj
+
+# target to build an object file
+src/term2/l10/4.c.obj:
+	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l10/4.c.obj
+.PHONY : src/term2/l10/4.c.obj
+
+src/term2/l10/4.i: src/term2/l10/4.c.i
+
+.PHONY : src/term2/l10/4.i
+
+# target to preprocess a source file
+src/term2/l10/4.c.i:
+	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l10/4.c.i
+.PHONY : src/term2/l10/4.c.i
+
+src/term2/l10/4.s: src/term2/l10/4.c.s
+
+.PHONY : src/term2/l10/4.s
+
+# target to generate assembly for a file
+src/term2/l10/4.c.s:
+	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/src/term2/l10/4.c.s
+.PHONY : src/term2/l10/4.c.s
 
 # Help Target
 help:
@@ -280,20 +307,23 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 1
 	@echo ... 2
 	@echo ... 3
 	@echo ... 4
 	@echo ... array
-	@echo ... matrix
-	@echo ... src/term2/l9/2.obj
-	@echo ... src/term2/l9/2.i
-	@echo ... src/term2/l9/2.s
-	@echo ... src/term2/l9/3.obj
-	@echo ... src/term2/l9/3.i
-	@echo ... src/term2/l9/3.s
-	@echo ... src/term2/l9/4.obj
-	@echo ... src/term2/l9/4.i
-	@echo ... src/term2/l9/4.s
+	@echo ... src/term2/l10/1.obj
+	@echo ... src/term2/l10/1.i
+	@echo ... src/term2/l10/1.s
+	@echo ... src/term2/l10/2.obj
+	@echo ... src/term2/l10/2.i
+	@echo ... src/term2/l10/2.s
+	@echo ... src/term2/l10/3.obj
+	@echo ... src/term2/l10/3.i
+	@echo ... src/term2/l10/3.s
+	@echo ... src/term2/l10/4.obj
+	@echo ... src/term2/l10/4.i
+	@echo ... src/term2/l10/4.s
 .PHONY : help
 
 

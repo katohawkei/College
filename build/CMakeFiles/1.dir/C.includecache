@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../include/array.h
+
+D:/Dev/projects/C/College/src/term2/l10/1.c
+array.h
+D:/Dev/projects/C/College/src/term2/l10/array.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

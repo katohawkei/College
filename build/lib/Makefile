@@ -64,10 +64,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Dev\c_cpp_projects\College
+CMAKE_SOURCE_DIR = D:\Dev\projects\C\College
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Dev\c_cpp_projects\College\build
+CMAKE_BINARY_DIR = D:\Dev\projects\C\College\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -96,14 +96,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Dev\c_cpp_projects\College\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles C:\Dev\c_cpp_projects\College\build\lib\CMakeFiles\progress.marks
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\c_cpp_projects\College\build\CMakeFiles 0
+	cd /d D:\Dev\projects\C\College\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles D:\Dev\projects\C\College\build\lib\CMakeFiles\progress.marks
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/clean
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,37 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Dev\projects\C\College\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-lib/CMakeFiles/matrix.dir/rule:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/matrix.dir/rule
-.PHONY : lib/CMakeFiles/matrix.dir/rule
-
-# Convenience name for target.
-matrix: lib/CMakeFiles/matrix.dir/rule
-
-.PHONY : matrix
-
-# fast build rule for target.
-matrix/fast:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/build
-.PHONY : matrix/fast
-
-# Convenience name for target.
 lib/CMakeFiles/array.dir/rule:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/array.dir/rule
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f CMakeFiles\Makefile2 lib/CMakeFiles/array.dir/rule
 .PHONY : lib/CMakeFiles/array.dir/rule
 
 # Convenience name for target.
@@ -153,7 +138,7 @@ array: lib/CMakeFiles/array.dir/rule
 
 # fast build rule for target.
 array/fast:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/build
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/build
 .PHONY : array/fast
 
 array.obj: array.c.obj
@@ -162,7 +147,7 @@ array.obj: array.c.obj
 
 # target to build an object file
 array.c.obj:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.obj
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.obj
 .PHONY : array.c.obj
 
 array.i: array.c.i
@@ -171,7 +156,7 @@ array.i: array.c.i
 
 # target to preprocess a source file
 array.c.i:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.i
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.i
 .PHONY : array.c.i
 
 array.s: array.c.s
@@ -180,35 +165,8 @@ array.s: array.c.s
 
 # target to generate assembly for a file
 array.c.s:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.s
+	cd /d D:\Dev\projects\C\College\build && $(MAKE) -f lib\CMakeFiles\array.dir\build.make lib/CMakeFiles/array.dir/array.c.s
 .PHONY : array.c.s
-
-matrix.obj: matrix.c.obj
-
-.PHONY : matrix.obj
-
-# target to build an object file
-matrix.c.obj:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/matrix.c.obj
-.PHONY : matrix.c.obj
-
-matrix.i: matrix.c.i
-
-.PHONY : matrix.i
-
-# target to preprocess a source file
-matrix.c.i:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/matrix.c.i
-.PHONY : matrix.c.i
-
-matrix.s: matrix.c.s
-
-.PHONY : matrix.s
-
-# target to generate assembly for a file
-matrix.c.s:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(MAKE) -f lib\CMakeFiles\matrix.dir\build.make lib/CMakeFiles/matrix.dir/matrix.c.s
-.PHONY : matrix.c.s
 
 # Help Target
 help:
@@ -219,13 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... array
-	@echo ... matrix
 	@echo ... array.obj
 	@echo ... array.i
 	@echo ... array.s
-	@echo ... matrix.obj
-	@echo ... matrix.i
-	@echo ... matrix.s
 .PHONY : help
 
 
@@ -237,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Dev\c_cpp_projects\College\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Dev\projects\C\College\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

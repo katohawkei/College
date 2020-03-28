@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Dev/c_cpp_projects/College/lib/array.c" "C:/Dev/c_cpp_projects/College/build/lib/CMakeFiles/array.dir/array.c.obj"
+  "D:/Dev/projects/C/College/lib/array.c" "D:/Dev/projects/C/College/build/lib/CMakeFiles/array.dir/array.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

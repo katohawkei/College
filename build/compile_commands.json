@@ -1,27 +1,27 @@
 [
 {
-  "directory": "C:/Dev/c_cpp_projects/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/2.dir/includes_C.rsp -g   -o CMakeFiles\\2.dir\\src\\term2\\l9\\2.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l9\\2.c",
-  "file": "C:/Dev/c_cpp_projects/College/src/term2/l9/2.c"
+  "directory": "D:/Dev/projects/C/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/1.dir/includes_C.rsp -g   -o CMakeFiles\\1.dir\\src\\term2\\l10\\1.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\1.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l10/1.c"
 },
 {
-  "directory": "C:/Dev/c_cpp_projects/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/3.dir/includes_C.rsp -g   -o CMakeFiles\\3.dir\\src\\term2\\l9\\3.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l9\\3.c",
-  "file": "C:/Dev/c_cpp_projects/College/src/term2/l9/3.c"
+  "directory": "D:/Dev/projects/C/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/2.dir/includes_C.rsp -g   -o CMakeFiles\\2.dir\\src\\term2\\l10\\2.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\2.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l10/2.c"
 },
 {
-  "directory": "C:/Dev/c_cpp_projects/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/4.dir/includes_C.rsp -g   -o CMakeFiles\\4.dir\\src\\term2\\l9\\4.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\src\\term2\\l9\\4.c",
-  "file": "C:/Dev/c_cpp_projects/College/src/term2/l9/4.c"
+  "directory": "D:/Dev/projects/C/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/3.dir/includes_C.rsp -g   -o CMakeFiles\\3.dir\\src\\term2\\l10\\3.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\3.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l10/3.c"
 },
 {
-  "directory": "C:/Dev/c_cpp_projects/College/build/lib",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/matrix.dir/includes_C.rsp -g   -o CMakeFiles\\matrix.dir\\matrix.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\lib\\matrix.c",
-  "file": "C:/Dev/c_cpp_projects/College/lib/matrix.c"
+  "directory": "D:/Dev/projects/C/College/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/4.dir/includes_C.rsp -g   -o CMakeFiles\\4.dir\\src\\term2\\l10\\4.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\4.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l10/4.c"
 },
 {
-  "directory": "C:/Dev/c_cpp_projects/College/build/lib",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/array.dir/includes_C.rsp -g   -o CMakeFiles\\array.dir\\array.c.obj   -c C:\\Dev\\c_cpp_projects\\College\\lib\\array.c",
-  "file": "C:/Dev/c_cpp_projects/College/lib/array.c"
+  "directory": "D:/Dev/projects/C/College/build/lib",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/array.dir/includes_C.rsp -g   -o CMakeFiles\\array.dir\\array.c.obj   -c D:\\Dev\\projects\\C\\College\\lib\\array.c",
+  "file": "D:/Dev/projects/C/College/lib/array.c"
 }
 ]

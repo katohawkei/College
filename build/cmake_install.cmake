@@ -1,4 +1,4 @@
-# Install script for directory: C:/Dev/c_cpp_projects/College
+# Install script for directory: D:/Dev/projects/C/College
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Dev/c_cpp_projects/College/build/lib/cmake_install.cmake")
+  include("D:/Dev/projects/C/College/build/lib/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Dev/c_cpp_projects/College/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Dev/projects/C/College/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

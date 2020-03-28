@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-../include/matrix.h
-stddef.h
--
+../include/array.h
 
-C:/Dev/c_cpp_projects/College/src/term2/l9/2.c
+D:/Dev/projects/C/College/src/term2/l10/2.c
+array.h
+D:/Dev/projects/C/College/src/term2/l10/array.h
 stdio.h
 -
 stdlib.h
 -
 time.h
 -
-matrix.h
-C:/Dev/c_cpp_projects/College/src/term2/l9/matrix.h
 
