@@ -7,7 +7,7 @@
     - [*l7*](https://github.com/katohawkei/College/blob/master/src/term2/l7)
     - [*l8*](https://github.com/katohawkei/College/blob/master/src/term2/l8)
     - [*l9*](https://github.com/katohawkei/College/blob/master/src/term2/l9/README.md)
-
+    - [*l10*](https://github.com/katohawkei/College/blob/master/src/term2/l10/README.md)
 
 ### Changes:
   
