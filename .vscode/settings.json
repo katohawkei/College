@@ -5,4 +5,6 @@
         "matrix.h": "c",
         "array.h": "c"
     },
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe"
 }

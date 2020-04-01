@@ -5,9 +5,6 @@
     
     [source code](https://github.com/katohawkei/College/blob/master/lib/array.c)
   
-  * [matrix.h](https://github.com/katohawkei/College/blob/master/include/matrix.h)
-
-  
  **Source code:**
   * [1.c](https://github.com/katohawkei/College/blob/master/src/term2/l10/1.c)
   * [2.c](https://github.com/katohawkei/College/blob/master/src/term2/l10/2.c)

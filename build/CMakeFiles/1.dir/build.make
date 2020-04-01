@@ -73,30 +73,29 @@ include CMakeFiles/1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1.dir/flags.make
 
-CMakeFiles/1.dir/src/term2/l10/1.c.obj: CMakeFiles/1.dir/flags.make
-CMakeFiles/1.dir/src/term2/l10/1.c.obj: CMakeFiles/1.dir/includes_C.rsp
-CMakeFiles/1.dir/src/term2/l10/1.c.obj: ../src/term2/l10/1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/1.dir/src/term2/l10/1.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1.dir\src\term2\l10\1.c.obj   -c D:\Dev\projects\C\College\src\term2\l10\1.c
+CMakeFiles/1.dir/src/term2/l11/1.c.obj: CMakeFiles/1.dir/flags.make
+CMakeFiles/1.dir/src/term2/l11/1.c.obj: CMakeFiles/1.dir/includes_C.rsp
+CMakeFiles/1.dir/src/term2/l11/1.c.obj: ../src/term2/l11/1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/1.dir/src/term2/l11/1.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\1.dir\src\term2\l11\1.c.obj   -c D:\Dev\projects\C\College\src\term2\l11\1.c
 
-CMakeFiles/1.dir/src/term2/l10/1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1.dir/src/term2/l10/1.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Dev\projects\C\College\src\term2\l10\1.c > CMakeFiles\1.dir\src\term2\l10\1.c.i
+CMakeFiles/1.dir/src/term2/l11/1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/1.dir/src/term2/l11/1.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Dev\projects\C\College\src\term2\l11\1.c > CMakeFiles\1.dir\src\term2\l11\1.c.i
 
-CMakeFiles/1.dir/src/term2/l10/1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1.dir/src/term2/l10/1.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Dev\projects\C\College\src\term2\l10\1.c -o CMakeFiles\1.dir\src\term2\l10\1.c.s
+CMakeFiles/1.dir/src/term2/l11/1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/1.dir/src/term2/l11/1.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Dev\projects\C\College\src\term2\l11\1.c -o CMakeFiles\1.dir\src\term2\l11\1.c.s
 
 # Object files for target 1
 1_OBJECTS = \
-"CMakeFiles/1.dir/src/term2/l10/1.c.obj"
+"CMakeFiles/1.dir/src/term2/l11/1.c.obj"
 
 # External object files for target 1
 1_EXTERNAL_OBJECTS =
 
-1.exe: CMakeFiles/1.dir/src/term2/l10/1.c.obj
+1.exe: CMakeFiles/1.dir/src/term2/l11/1.c.obj
 1.exe: CMakeFiles/1.dir/build.make
-1.exe: lib/libarray.a
 1.exe: CMakeFiles/1.dir/linklibs.rsp
 1.exe: CMakeFiles/1.dir/objects1.rsp
 1.exe: CMakeFiles/1.dir/link.txt

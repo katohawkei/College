@@ -25,8 +25,8 @@ int main()
         exit(1);
     }
 
-    fillArray(length_array, array, (int[]){MIN, MAX});
-    printArray(length_array, array);
+    fillArray_i(length_array, array, (int[]){MIN, MAX});
+    printArray_i(length_array, array);
 
     print_indexes_max_elems(length_array, array);
 

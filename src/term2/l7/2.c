@@ -25,8 +25,8 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  fillArray(length_array, array, (int[]){MIN, MAX});
-  printArray(length_array, array);
+  fillArray_i(length_array, array, (int[]){MIN, MAX});
+  printArray_i(length_array, array);
 
   printf("max = %d\n", abs_max_elem(length_array, array));
   printf("sum = %d\n", sum_btw_2_positive_nums(length_array, array));

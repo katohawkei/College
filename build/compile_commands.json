@@ -1,23 +1,23 @@
 [
 {
   "directory": "D:/Dev/projects/C/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/1.dir/includes_C.rsp -g   -o CMakeFiles\\1.dir\\src\\term2\\l10\\1.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\1.c",
-  "file": "D:/Dev/projects/C/College/src/term2/l10/1.c"
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/1.dir/includes_C.rsp -g   -o CMakeFiles\\1.dir\\src\\term2\\l11\\1.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l11\\1.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l11/1.c"
 },
 {
   "directory": "D:/Dev/projects/C/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/2.dir/includes_C.rsp -g   -o CMakeFiles\\2.dir\\src\\term2\\l10\\2.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\2.c",
-  "file": "D:/Dev/projects/C/College/src/term2/l10/2.c"
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/2.dir/includes_C.rsp -g   -o CMakeFiles\\2.dir\\src\\term2\\l11\\2.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l11\\2.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l11/2.c"
 },
 {
   "directory": "D:/Dev/projects/C/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/3.dir/includes_C.rsp -g   -o CMakeFiles\\3.dir\\src\\term2\\l10\\3.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\3.c",
-  "file": "D:/Dev/projects/C/College/src/term2/l10/3.c"
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/3.dir/includes_C.rsp -g   -o CMakeFiles\\3.dir\\src\\term2\\l11\\3.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l11\\3.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l11/3.c"
 },
 {
   "directory": "D:/Dev/projects/C/College/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/4.dir/includes_C.rsp -g   -o CMakeFiles\\4.dir\\src\\term2\\l10\\4.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l10\\4.c",
-  "file": "D:/Dev/projects/C/College/src/term2/l10/4.c"
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/4.dir/includes_C.rsp -g   -o CMakeFiles\\4.dir\\src\\term2\\l11\\4.c.obj   -c D:\\Dev\\projects\\C\\College\\src\\term2\\l11\\4.c",
+  "file": "D:/Dev/projects/C/College/src/term2/l11/4.c"
 },
 {
   "directory": "D:/Dev/projects/C/College/build/lib",

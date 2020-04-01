@@ -7,7 +7,8 @@
     - [*l7*](https://github.com/katohawkei/College/blob/master/src/term2/l7)
     - [*l8*](https://github.com/katohawkei/College/blob/master/src/term2/l8)
     - [*l9*](https://github.com/katohawkei/College/blob/master/src/term2/l9/README.md)
-
+    - [*l10*](https://github.com/katohawkei/College/blob/master/src/term2/l10/README.md)
+    - [*l11*](https://github.com/katohawkei/College/blob/master/src/term2/l11/README.md)
 
 ### Changes:
   
@@ -22,3 +23,10 @@
     > Added l9 (2.c, 3.c, 4.c)
   
     > Reformated repository: splited up "\*.h" and "*.c" files
+
+  * ***01.04.2020***
+    > Added launch.json, tasks.json
+
+    > Updated for terminal external running usage of vscode
+ 
+    > Changed some files 

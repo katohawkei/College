@@ -22,8 +22,8 @@ int main(int argc, char const *argv[]) {
     exit(1);
   }
 
-  fillArray(numOfElements, array, (int[]){MIN, MAX});
-  printArray(numOfElements, array);
+  fillArray_i(numOfElements, array, (int[]){MIN, MAX});
+  printArray_i(numOfElements, array);
 
   int *newarray;
   if ((newarray =

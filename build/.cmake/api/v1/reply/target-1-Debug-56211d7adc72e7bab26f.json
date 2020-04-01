@@ -14,7 +14,6 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries",
 			"include_directories"
 		],
 		"files" : 
@@ -35,12 +34,6 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
 				"line" : 7,
 				"parent" : 0
 			}
@@ -58,7 +51,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 2,
 					"path" : "D:/Dev/projects/C/College/include"
 				}
 			],
@@ -67,13 +60,6 @@
 			[
 				0
 			]
-		}
-	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 2,
-			"id" : "array::@306ed2d68c6501e8728f"
 		}
 	],
 	"id" : "1::@6890427a1f51a3e7e1df",
@@ -88,11 +74,6 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "lib\\libarray.a",
-				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
@@ -123,7 +104,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/term2/l10/1.c",
+			"path" : "src/term2/l11/1.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -23,8 +23,8 @@ int main(int argc, char *argv[]) {
     exit(1);
   }
 
-  fillArray(length_array, array, (int[]){MIN, MAX});
-  printArray(length_array, array);
+  fillArray_i(length_array, array, (int[]){MIN, MAX});
+  printArray_i(length_array, array);
 
   printf("diff = %d\n", how_many_diff_elem(length_array, array));
 

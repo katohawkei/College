@@ -15,7 +15,7 @@
 int min_elem(int length_array, int *array);
 
 // is it even?
-int even(int n) { return n % 2 == 0 };
+int even(int n) { return n % 2 == 0; }
 
 int main(int argc, char *argv[]) {
   int length_array, *array;
@@ -32,8 +32,8 @@ int main(int argc, char *argv[]) {
   }
 
   // My funcs for generate element and print
-  fillArray(length_array, array, (int[]){MIN, MAX});
-  printArray(length_array, array);
+  fillArray_i(length_array, array, (int[]){MIN, MAX});
+  printArray_i(length_array, array);
 
   printf("\n%d\n", min_elem(length_array, array));
 

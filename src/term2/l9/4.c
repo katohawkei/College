@@ -112,7 +112,7 @@ void vector(size_t n, size_t m, int **matrix)
 
     free(storage);
 
-    printArray(k, array);
+    printArray_i(k, array);
     return;
 }
 

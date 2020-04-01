@@ -113,7 +113,7 @@ lib/clean: lib/CMakeFiles/array.dir/clean
 # Target rules for target CMakeFiles/1.dir
 
 # All Build rule for target.
-CMakeFiles/1.dir/all: lib/CMakeFiles/array.dir/all
+CMakeFiles/1.dir/all:
 	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/depend
 	$(MAKE) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=1,2 "Built target 1"
@@ -121,7 +121,7 @@ CMakeFiles/1.dir/all: lib/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/1.dir/rule
@@ -140,7 +140,7 @@ CMakeFiles/1.dir/clean:
 # Target rules for target CMakeFiles/2.dir
 
 # All Build rule for target.
-CMakeFiles/2.dir/all: lib/CMakeFiles/array.dir/all
+CMakeFiles/2.dir/all:
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/depend
 	$(MAKE) -f CMakeFiles\2.dir\build.make CMakeFiles/2.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=3,4 "Built target 2"
@@ -148,7 +148,7 @@ CMakeFiles/2.dir/all: lib/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/2.dir/rule
@@ -167,7 +167,7 @@ CMakeFiles/2.dir/clean:
 # Target rules for target CMakeFiles/3.dir
 
 # All Build rule for target.
-CMakeFiles/3.dir/all: lib/CMakeFiles/array.dir/all
+CMakeFiles/3.dir/all:
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/depend
 	$(MAKE) -f CMakeFiles\3.dir\build.make CMakeFiles/3.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=5,6 "Built target 3"
@@ -175,7 +175,7 @@ CMakeFiles/3.dir/all: lib/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/3.dir/rule
@@ -194,7 +194,7 @@ CMakeFiles/3.dir/clean:
 # Target rules for target CMakeFiles/4.dir
 
 # All Build rule for target.
-CMakeFiles/4.dir/all: lib/CMakeFiles/array.dir/all
+CMakeFiles/4.dir/all:
 	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/depend
 	$(MAKE) -f CMakeFiles\4.dir\build.make CMakeFiles/4.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Dev\projects\C\College\build\CMakeFiles --progress-num=7,8 "Built target 4"
@@ -202,7 +202,7 @@ CMakeFiles/4.dir/all: lib/CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Dev\projects\C\College\build\CMakeFiles 0
 .PHONY : CMakeFiles/4.dir/rule
